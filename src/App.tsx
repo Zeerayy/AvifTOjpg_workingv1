@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { PageId, ToolMode } from './types';
+import { PageId } from './types';
 import { TOOL_CONFIGS, SEO_ARTICLES } from './utils/seoData';
 import { LocaleProvider, useLocale } from './context/LocaleContext';
 import { Header } from './components/Header';
 import { ConverterCard } from './components/ConverterCard';
-import { AdPlaceholder } from './components/AdPlaceholder';
 import { SeoArticle } from './components/SeoArticle';
 import { PrivacyPage } from './components/PrivacyPage';
 import { TermsPage } from './components/TermsPage';
@@ -143,10 +142,8 @@ function AppContent() {
                 </section>
               </div>
 
-              {/* Advertisement Sidebar Column (4 cols) */}
+              {/* Sidebar Column (4 cols) */}
               <div className="lg:col-span-4 flex flex-col gap-6">
-                <AdPlaceholder type="sidebar" />
-
                 {/* Privacy First Highlight Card */}
                 <div className="bg-teal-900 text-white p-5 sm:p-6 rounded-lg shadow-sm space-y-2.5">
                   <div className="flex items-center gap-2 text-teal-300">
@@ -187,11 +184,6 @@ function AppContent() {
               </div>
             </div>
 
-            {/* Middle Responsive Ad Unit */}
-            <div className="w-full">
-              <AdPlaceholder type="banner" />
-            </div>
-
             {/* In-depth SEO Article & FAQs */}
             <SeoArticle
               article={currentArticle}
@@ -216,9 +208,8 @@ function AppContent() {
               )}
             </div>
 
-            {/* Sidebar Ad & Privacy Box on Info Pages */}
+            {/* Sidebar & Privacy Box on Info Pages */}
             <div className="lg:col-span-4 flex flex-col gap-6">
-              <AdPlaceholder type="sidebar" />
               <div className="bg-teal-900 text-white p-5 rounded-lg shadow-sm space-y-2">
                 <div className="flex items-center gap-2 text-teal-400">
                   <ShieldCheck className="w-4 h-4" />
