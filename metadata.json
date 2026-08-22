@@ -1,0 +1,6 @@
+{
+  "name": "AVIF to JPG Converter",
+  "description": "Fast, privacy-friendly online image converter for converting AVIF images to JPG directly in your browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

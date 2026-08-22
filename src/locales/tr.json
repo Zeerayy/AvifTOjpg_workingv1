@@ -1,0 +1,207 @@
+{
+  "langCode": "tr",
+  "langName": "Turkish",
+  "nativeName": "Türkçe",
+  "meta": {
+    "pageTitle": "AVIF - JPG Dönüştürücü – Ücretsiz Çevrimiçi Resim Dönüştürücü",
+    "metaDescription": "Ücretsiz çevrimiçi dönüştürücümüzle AVIF resimlerini hızlı ve kolay bir şekilde JPG formatına dönüştürün. Tarayıcınızda %100 gizli ve güvenli.",
+    "privacyTitle": "Gizlilik Politikası – AVIFtoJPG.in",
+    "privacyDescription": "Tarayıcı içi yerel resim işleme mimarimiz hakkında bilgi edinin. Dosyalarınız sunuculara yüklenmez.",
+    "termsTitle": "Kullanım Şartları – AVIFtoJPG.in",
+    "termsDescription": "AVIFtoJPG.in kullanım koşulları ve yasal kılavuz.",
+    "aboutTitle": "Hakkımızda – AVIFtoJPG.in",
+    "aboutDescription": "AVIFtoJPG.in'in amacı ve tarayıcı tabanlı ücretsiz dönüştürücümüzün çalışma prensipleri.",
+    "contactTitle": "İletişim – AVIFtoJPG.in",
+    "contactDescription": "Sorularınız ve geri bildirimleriniz için AVIFtoJPG.in ekibiyle iletişime geçin."
+  },
+  "header": {
+    "brand": "AVIFtoJPG.in",
+    "language": "Dil"
+  },
+  "ad": {
+    "label": "Reklam",
+    "topSlot": "Google AdSense Duyarlı Banner (728 × 90)",
+    "sidebarSlot": "Google AdSense Kenar Çubuğu Reklamı (300 × 250 / 300 × 600)",
+    "midContentSlot": "Google AdSense Duyarlı Banner (728 × 90)"
+  },
+  "converter": {
+    "title": "AVIF - JPG Dönüştürücü",
+    "description": "AVIF resimlerini hızlı ve kolay bir şekilde JPG formatına dönüştürün.",
+    "secondaryExplanation": "Resimlerinizi doğrudan tarayıcınızda güvenle işleyin.",
+    "step1Title": "1. AVIF dosyalarınızı yükleyin",
+    "step1Desc": "DOSYA YÜKLE düğmesine tıklayın veya AVIF resimlerinizi yükleme alanına sürükleyin.",
+    "step2Title": "2. JPG dosyalarınızı indirin",
+    "step2Desc": "Dönüştürme tamamlandıktan sonra oluşturulan JPG dosyalarını indirin.",
+    "qualityLabel": "Görüntü kalitesi",
+    "qualityHelp": "Daha yüksek kalite dosya boyutunun artmasına neden olabilir.",
+    "dropZoneTitle": "AVIF Dosyalarınızı Buraya Bırakın",
+    "dropZoneSubtitle": "veya cihazınızdan seçmek için tıklayın",
+    "uploadButton": "DOSYA YÜKLE",
+    "dropZoneNote": "Yalnızca .avif dosyaları desteklenir • Çoklu dosya desteği",
+    "privacyNotice": "Resimleriniz tarayıcınızda işlenir ve sunucularımıza yüklenmez.",
+    "privacyLink": "Gizlilik",
+    "queueTitle": "Dönüştürme Kuyruğu",
+    "statusWaiting": "Bekliyor...",
+    "statusConverting": "Dönüştürülüyor...",
+    "statusConverted": "Başarıyla dönüştürüldü",
+    "statusError": "Dönüştürme hatası",
+    "btnDownload": "İNDİR",
+    "btnDownloadAll": "TÜMÜNÜ İNDİR",
+    "btnClearQueue": "LİSTEYİ TEMİZLE",
+    "btnTrySample": "Örnek Dosya Dene",
+    "unsupportedBrowser": "Tarayıcınız yerel AVIF kod çözmeyi desteklemiyor. Lütfen güncel bir Chrome, Edge, Safari veya Firefox tarayıcısı kullanın.",
+    "invalidFileType": "Yalnızca .avif resim dosyaları desteklenmektedir.",
+    "originalSize": "Orijinal",
+    "convertedSize": "JPG Boyutu"
+  },
+  "content": {
+    "mainHeading": "AVIF - JPG Dönüştürücü",
+    "whatIsAvifTitle": "AVIF Nedir?",
+    "whatIsAvifBody": "AVIF (AV1 Image File Format), Alliance for Open Media tarafından geliştirilen modern ve telifsiz bir resim formatıdır. AV1 video kodekine dayanan AVIF, JPEG ve PNG gibi eski formatlara kıyasla çok daha yüksek sıkıştırma verimliliği sağlar.",
+    "whatIsJpgTitle": "JPG Nedir?",
+    "whatIsJpgBody": "JPG (veya JPEG), dünyanın en yaygın kullanılan ve evrensel olarak tanınan dijital görüntü formatıdır. Neredeyse tüm web tarayıcıları, işletim sistemleri, fotoğraf düzenleyiciler ve akıllı telefonlar tarafından desteklenir.",
+    "whyConvertTitle": "Neden AVIF'i JPG'ye dönüştürmeliyiz?",
+    "whyConvertPoints": [
+      "Evrensel Uyumluluk: Eski yazılımlar ve fotoğraf editörleri genellikle AVIF dosyalarını açamazken, JPG her yerde sorunsuz açılır.",
+      "Sosyal Medya ve Web Paylaşımı: Birçok sosyal ağ ve web sitesi henüz doğrudan AVIF yüklemelerini kabul etmemektedir.",
+      "Fotoğraf Baskısı: Fotoğraf baskı merkezleri ve standart yazıcılar JPG dosyalarıyla çalışır.",
+      "Kolay Paylaşım: JPG dosyalarını herkes ek bir yazılıma ihtiyaç duymadan görüntüleyebilir."
+    ],
+    "comparisonTitle": "AVIF ve JPG Karşılaştırması",
+    "comparisonRows": [
+      { "feature": "Sıkıştırma Verimliliği", "avif": "Üstün (%50'ye kadar daha küçük)", "jpg": "Standart temel sıkıştırma" },
+      { "feature": "Evrensel Uyumluluk", "avif": "Yalnızca modern tarayıcılar", "jpg": "Tüm platformlarda %100 uyumlu" },
+      { "feature": "Şeffaflık Desteği", "avif": "Desteklenir (Alfa kanalı)", "jpg": "Desteklenmez" },
+      { "feature": "Renk Derinliği", "avif": "8, 10, 12 bit HDR", "jpg": "Standart 8 bit SDR" },
+      { "feature": "Animasyon", "avif": "Desteklenir", "jpg": "Desteklenmez (statik)" },
+      { "feature": "Donanım Hızlandırma", "avif": "Yeni nesil yongalar", "jpg": "Evrensel donanım desteği" }
+    ],
+    "howToTitle": "Çevrimiçi AVIF - JPG Dönüştürme Nasıl Yapılır?",
+    "howToSteps": [
+      { "step": 1, "title": "AVIF dosyalarınızı yükleyin", "desc": "'DOSYA YÜKLE'ye tıklayın veya .avif resimlerinizi alana bırakın." },
+      { "step": 2, "title": "Kaliteyi ayarlayın", "desc": "Kaydırıcı ile istediğiniz kaliteyi belirleyin (varsayılan %85 en ideal dengedir)." },
+      { "step": 3, "title": "Tarayıcıda anında işleyin", "desc": "Tarayıcınız resmi internete yüklemeden yerel olarak dönüştürür." },
+      { "step": 4, "title": "JPG dosyalarını indirin", "desc": "Tek tek indirin veya 'TÜMÜNÜ İNDİR' ile ZIP olarak kaydedin." }
+    ],
+    "qualityExplainedTitle": "JPG Kalite Ayarı Açıklaması",
+    "qualityExplainedBody": "JPG'ye dönüştürürken kalite ayarı sıkıştırma oranını belirler. %85 ayarı, gözle fark edilemeyecek kadar yüksek bir kalite sunarken dosya boyutunu önemli ölçüde küçültür.",
+    "areFilesUploadedTitle": "Dosyalarım sunucularınıza yükleniyor mu?",
+    "areFilesUploadedBody": "Hayır. AVIFtoJPG.in tamamen kullanıcı tarafında (istemcide) çalışır. Bütün işlemler tarayıcınızın hafızasında yapılır, dosyalarınız asla harici bir sunucuya gitmez.",
+    "isFreeTitle": "AVIF - JPG dönüştürme ücretsiz mi?",
+    "isFreeBody": "Evet, AVIFtoJPG.in üyelik gerektirmeksizin, dosya sınırı veya filigran olmadan tamamen ücretsizdir."
+  },
+  "faq": {
+    "heading": "Sıkça Sorulan Sorular (SSS)",
+    "items": [
+      {
+        "question": "AVIF nedir?",
+        "answer": "AVIF, yüksek görsel netlik sağlarken küçük dosya boyutları sunan yeni nesil bir resim formatıdır."
+      },
+      {
+        "question": "JPG nedir?",
+        "answer": "JPG, tüm cihazlar tarafından desteklenen dünyanın en popüler standart resim formatıdır."
+      },
+      {
+        "question": "Neden AVIF'i JPG'ye dönüştürmeliyim?",
+        "answer": "Resimlerinizin eski cihazlarda, sosyal medyada ve tüm programlarda sorunsuz açılmasını sağlamak için."
+      },
+      {
+        "question": "Bu dönüştürücü ücretsiz mi?",
+        "answer": "Evet, herhangi bir ücret veya kayıt olmadan tamamen ücretsizdir."
+      },
+      {
+        "question": "Resimlerim internete kaydediliyor mu?",
+        "answer": "Hayır, dönüştürme işlemi sadece tarayıcınızın içerisinde gerçekleşir."
+      },
+      {
+        "question": "Dönüştürme işlemi kaliteyi bozar mı?",
+        "answer": "%85–%90 varsayılan ayarlarımızla görüntü kalitesi neredeyse hiç kayba uğramaz."
+      },
+      {
+        "question": "Aynı anda birden fazla dosya dönüştürebilir miyim?",
+        "answer": "Evet, çok sayıda AVIF dosyasını aynı anda yükleyip toplu ZIP olarak indirebilirsiniz."
+      },
+      {
+        "question": "Mobilde çalışır mı?",
+        "answer": "Evet, iOS ve Android cihazlardaki tüm modern mobil tarayıcılarda sorunsuz çalışır."
+      },
+      {
+        "question": "Hangi JPG kalitesini seçmeliyim?",
+        "answer": "Web kullanımı için %85, kaliteli fotoğraf baskısı için %90–%95 öneriyoruz."
+      },
+      {
+        "question": "Cihazım neden AVIF dosyasını açmıyor?",
+        "answer": "Eski işletim sistemlerinde AVIF desteği bulunmaz. JPG'ye dönüştürmek bu sorunu hemen çözer."
+      }
+    ]
+  },
+  "footer": {
+    "brand": "AVIFtoJPG.in",
+    "tagline": "Ücretsiz çevrimiçi AVIF - JPG dönüştürme.",
+    "navHome": "Ana Sayfa",
+    "navPrivacy": "Gizlilik Politikası",
+    "navTerms": "Kullanım Şartları",
+    "navAbout": "Hakkımızda",
+    "navContact": "İletişim",
+    "copyright": "© 2026 AVIFtoJPG.in"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "subtitle": "Son güncelleme: 22 Ağustos 2026",
+      "intro": "AVIFtoJPG.in olarak gizliliğinize büyük önem veriyoruz.",
+      "fileProcessingTitle": "1. Tarayıcıda Yerel Dosya İşleme",
+      "fileProcessingText": "Tüm işlemler HTML5 Canvas kullanılarak yerel olarak gerçekleştirilir. Resimleriniz asla sunucularımıza aktarılmaz.",
+      "dataCollectionTitle": "2. Veri Toplama",
+      "dataCollectionText": "Kullanım için hesap oluşturma veya kişisel bilgi talep etmiyoruz.",
+      "cookiesTitle": "3. Çerezler ve Reklamlar",
+      "cookiesText": "Ücretsiz hizmetimizi sürdürmek için Google AdSense gibi reklam ağlarını kullanmaktayız.",
+      "thirdPartyTitle": "4. Üçüncü Taraf Hizmetleri",
+      "thirdPartyText": "Statik kaynaklar hızlı CDN ağları üzerinden sunulmaktadır.",
+      "rightsTitle": "5. Kullanıcı Hakları",
+      "rightsText": "Resimlerinizi depolamadığımız için herhangi bir kullanıcı veritabanı tutulmamaktadır.",
+      "contactTitle": "6. İletişim",
+      "contactText": "Gizlilik soruları için: contact@aviftojpg.in"
+    },
+    "terms": {
+      "title": "Kullanım Şartları",
+      "subtitle": "Yürürlük Tarihi: 22 Ağustos 2026",
+      "intro": "Lütfen AVIFtoJPG.in hizmetini kullanmadan önce bu koşulları inceleyin.",
+      "acceptableUseTitle": "1. Kabul Edilebilir Kullanım",
+      "acceptableUseText": "Hizmetimiz kişisel ve ticari amaçlarla yasal çerçevede ücretsiz sunulmaktadır.",
+      "userResponsibilitiesTitle": "2. Telif Hakları",
+      "userResponsibilitiesText": "Dönüştürdüğünüz resimlerin tüm telif hakları tamamen size aittir.",
+      "availabilityTitle": "3. Hizmet Sürekliliği",
+      "availabilityText": "Yüksek erişilebilirlik sağlamak için çalışıyoruz ancak kesintisiz hizmet taahhüt edilmez.",
+      "liabilityTitle": "4. Sorumluluk Sınırı",
+      "liabilityText": "Hizmet 'olduğu gibi' sunulmaktadır.",
+      "jurisdictionTitle": "5. Geçerli Hukuk",
+      "jurisdictionText": "Bu koşullar ilgili yasalara tabidir.",
+      "contactTitle": "6. İletişim Bilgileri",
+      "contactText": "Şartlar hakkında sorularınız için: contact@aviftojpg.in"
+    },
+    "about": {
+      "title": "AVIFtoJPG.in Hakkında",
+      "subtitle": "Hızlı, Ücretsiz ve Gizlilik Odaklı AVIF - JPG Dönüştürücü",
+      "missionTitle": "Misyonumuz",
+      "missionText": "Kullanıcılara AVIF formatındaki resimlerini güvenli ve hızlı bir şekilde standart JPG'ye dönüştürme imkanı sunmak.",
+      "whyAvifTitle": "Neden AVIF - JPG?",
+      "whyAvifText": "AVIF modern bir format olsa da uyumluluk sorunları devam etmektedir. Biz bu sorunu saniyeler içinde çözüyoruz.",
+      "howItWorksTitle": "Nasıl Çalışır?",
+      "howItWorksText": "Tüm işlem doğrudan cihazınızın tarayıcı belleğinde gerçekleşir.",
+      "futureDirectionTitle": "Gelecek",
+      "futureDirectionText": "Tüm cihazlarda en yüksek hız ve performansı sunmaya devam edeceğiz."
+    },
+    "contact": {
+      "title": "İletişim",
+      "subtitle": "AVIFtoJPG.in Ekibiyle İletişime Geçin",
+      "intro": "Her türlü geri bildirim, öneri veya hata bildirimi için bize yazabilirsiniz.",
+      "emailLabel": "Destek E-postası",
+      "emailAddress": "contact@aviftojpg.in",
+      "emailDesc": "Destek ekibimize doğrudan e-posta gönderin.",
+      "responseTime": "Genellikle 24–48 iş saati içinde yanıt veriyoruz.",
+      "noteTitle": "Dosyalar Hakkında Önemli Not",
+      "noteText": "Tüm işlemler yerel yapıldığı için tarafımızda resim kopyanız bulunmaz."
+    }
+  }
+}

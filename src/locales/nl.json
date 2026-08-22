@@ -1,0 +1,207 @@
+{
+  "langCode": "nl",
+  "langName": "Dutch",
+  "nativeName": "Nederlands",
+  "meta": {
+    "pageTitle": "AVIF naar JPG Converter – Gratis Online Beeldconverter",
+    "metaDescription": "Converteer AVIF-afbeeldingen snel en eenvoudig naar JPG-formaat met onze gratis online converter direct in uw browser.",
+    "privacyTitle": "Privacybeleid – AVIFtoJPG.in",
+    "privacyDescription": "Lees meer over onze lokale browserverwerking. Uw bestanden worden nooit geüpload naar servers.",
+    "termsTitle": "Algemene Voorwaarden – AVIFtoJPG.in",
+    "termsDescription": "Algemene voorwaarden en gebruiksrichtlijnen voor AVIFtoJPG.in.",
+    "aboutTitle": "Over Ons – AVIFtoJPG.in",
+    "aboutDescription": "Ontdek waarom AVIFtoJPG.in bestaat en hoe onze gratis browserconverter werkt.",
+    "contactTitle": "Contact – AVIFtoJPG.in",
+    "contactDescription": "Neem contact op met het AVIFtoJPG.in-team voor vragen en feedback."
+  },
+  "header": {
+    "brand": "AVIFtoJPG.in",
+    "language": "Taal"
+  },
+  "ad": {
+    "label": "Advertentie",
+    "topSlot": "Google AdSense Responsieve Banner (728 × 90)",
+    "sidebarSlot": "Google AdSense Zijbalk Advertentie (300 × 250 / 300 × 600)",
+    "midContentSlot": "Google AdSense Responsieve Banner (728 × 90)"
+  },
+  "converter": {
+    "title": "AVIF naar JPG Converter",
+    "description": "Converteer AVIF-afbeeldingen snel en eenvoudig naar JPG-formaat.",
+    "secondaryExplanation": "Verwerk uw afbeeldingen direct en lokaal in uw browser.",
+    "step1Title": "1. Upload uw AVIF-bestanden",
+    "step1Desc": "Klik op BESTANDEN UPLOADEN of sleep uw AVIF-afbeeldingen naar het uploadgebied.",
+    "step2Title": "2. Download uw JPG-bestanden",
+    "step2Desc": "Download na de conversie de resulterende JPG-bestanden.",
+    "qualityLabel": "Beeldkwaliteit",
+    "qualityHelp": "Een hogere kwaliteit kan grotere bestanden opleveren.",
+    "dropZoneTitle": "Sleep uw AVIF-bestanden hierheen",
+    "dropZoneSubtitle": "of klik om bestanden te selecteren",
+    "uploadButton": "BESTANDEN UPLOADEN",
+    "dropZoneNote": "Alleen .avif-bestanden • Meerdere bestanden ondersteund",
+    "privacyNotice": "Uw afbeeldingen worden in uw browser verwerkt en niet naar onze servers geüpload.",
+    "privacyLink": "Privacy",
+    "queueTitle": "Conversiewachtrij",
+    "statusWaiting": "Wachten...",
+    "statusConverting": "Converteren...",
+    "statusConverted": "Succesvol geconverteerd",
+    "statusError": "Conversiefout",
+    "btnDownload": "DOWNLOADEN",
+    "btnDownloadAll": "ALLES DOWNLOADEN",
+    "btnClearQueue": "LIJST WISSEN",
+    "btnTrySample": "Probeer voorbeeldbestand",
+    "unsupportedBrowser": "Uw browser ondersteunt AVIF-decodering niet standaard. Gebruik een recente browser zoals Chrome, Edge, Safari of Firefox.",
+    "invalidFileType": "Alleen .avif-afbeeldingsbestanden worden ondersteund.",
+    "originalSize": "Origineel",
+    "convertedSize": "JPG-grootte"
+  },
+  "content": {
+    "mainHeading": "AVIF naar JPG Converter",
+    "whatIsAvifTitle": "Wat is AVIF?",
+    "whatIsAvifBody": "AVIF (AV1 Image File Format) is een modern, royaltyvrij afbeeldingsformaat ontwikkeld door de Alliance for Open Media. Het biedt superieure compressie in vergelijking met oudere formaten zoals JPEG en PNG.",
+    "whatIsJpgTitle": "Wat is JPG?",
+    "whatIsJpgBody": "JPG (of JPEG) is het meest gebruikte en universeel ondersteunde afbeeldingsformaat ter wereld, compatibel met vrijwel elk apparaat en programma.",
+    "whyConvertTitle": "Waarom AVIF naar JPG converteren?",
+    "whyConvertPoints": [
+      "Universele compatibiliteit: Oudere systemen en fotobewerkers kunnen AVIF vaak niet openen, terwijl JPG overal werkt.",
+      "Delen op sociale media: Veel websites en sociale netwerken ondersteunen nog geen directe AVIF-uploads.",
+      "Afdrukken: Fotolabs en printers verwachten standaard JPG-bestanden.",
+      "Eenvoudige samenwerking: JPG-bestanden kunnen direct door iedereen worden geopend en bekeken."
+    ],
+    "comparisonTitle": "AVIF vs JPG Vergelijking",
+    "comparisonRows": [
+      { "feature": "Compressie-efficiëntie", "avif": "Superieur (tot 50% kleiner)", "jpg": "Standaard basiscompressie" },
+      { "feature": "Compatibiliteit", "avif": "Alleen moderne browsers", "jpg": "100% universeel op alle apparaten" },
+      { "feature": "Transparantie", "avif": "Ondersteund", "jpg": "Niet ondersteund" },
+      { "feature": "Kleurdiepte", "avif": "8, 10 en 12-bit HDR", "jpg": "Standaard 8-bit SDR" },
+      { "feature": "Animaties", "avif": "Ondersteund", "jpg": "Niet ondersteund" },
+      { "feature": "Hardwareversnelling", "avif": "Recente processors", "jpg": "Universele hardwareondersteuning" }
+    ],
+    "howToTitle": "Hoe AVIF naar JPG converteren",
+    "howToSteps": [
+      { "step": 1, "title": "Upload uw AVIF-bestanden", "desc": "Klik op 'BESTANDEN UPLOADEN' of sleep uw .avif-bestanden hierheen." },
+      { "step": 2, "title": "Kwaliteit instellen", "desc": "Kies het gewenste kwaliteitsniveau (85% is de aanbevolen standaard)." },
+      { "step": 3, "title": "Verwerking in de browser", "desc": "Uw browser verwerkt de afbeeldingen lokaal zonder netwerkvertraging." },
+      { "step": 4, "title": "Download uw JPG's", "desc": "Download elk bestand afzonderlijk of alles samen in een handig ZIP-bestand." }
+    ],
+    "qualityExplainedTitle": "JPG-kwaliteit uitgelegd",
+    "qualityExplainedBody": "Bij JPG-conversie bepaalt de kwaliteitsinstelling de compressieverhouding. 85% biedt een visueel perfect resultaat met een aanzienlijk kleiner bestand.",
+    "areFilesUploadedTitle": "Worden mijn bestanden geüpload?",
+    "areFilesUploadedBody": "Nee. AVIFtoJPG.in werkt 100% lokaal in uw browser. Uw bestanden verlaten uw apparaat nooit.",
+    "isFreeTitle": "Is deze conversie gratis?",
+    "isFreeBody": "Ja, AVIFtoJPG.in is volledig gratis zonder registratie, limieten of watermerken."
+  },
+  "faq": {
+    "heading": "Veelgestelde Vragen (FAQ)",
+    "items": [
+      {
+        "question": "Wat is AVIF?",
+        "answer": "AVIF is een modern beeldformaat met uitstekende compressie en hoge beeldkwaliteit."
+      },
+      {
+        "question": "Wat is JPG?",
+        "answer": "JPG is het meest compatibele beeldformaat ter wereld dat op elk apparaat opent."
+      },
+      {
+        "question": "Waarom AVIF naar JPG converteren?",
+        "answer": "Voor maximale compatibiliteit met alle oudere apparaten, programma's en websites."
+      },
+      {
+        "question": "Is deze converter gratis?",
+        "answer": "Ja, 100% gratis en direct te gebruiken zonder aanmelden."
+      },
+      {
+        "question": "Worden mijn foto's opgeslagen?",
+        "answer": "Nee, alle verwerking vindt plaats in uw eigen browser."
+      },
+      {
+        "question": "Gaat er kwaliteit verloren?",
+        "answer": "Bij de standaardinstelling van 85–90% blijft de beeldkwaliteit optimaal behouden."
+      },
+      {
+        "question": "Kan ik meerdere bestanden tegelijk converteren?",
+        "answer": "Ja, u kunt meerdere bestanden selecteren en als ZIP downloaden."
+      },
+      {
+        "question": "Werkt dit op smartphones?",
+        "answer": "Ja, de converter werkt soepel op mobiele apparaten met iOS en Android."
+      },
+      {
+        "question": "Welke JPG-kwaliteit moet ik kiezen?",
+        "answer": "Wij raden 85% aan voor webgebruik en 90–95% voor drukwerk."
+      },
+      {
+        "question": "Waarom opent mijn apparaat AVIF niet?",
+        "answer": "Oudere besturingssystemen missen AVIF-ondersteuning. Conversie naar JPG lost dit direct op."
+      }
+    ]
+  },
+  "footer": {
+    "brand": "AVIFtoJPG.in",
+    "tagline": "Gratis online AVIF naar JPG conversie.",
+    "navHome": "Home",
+    "navPrivacy": "Privacybeleid",
+    "navTerms": "Algemene Voorwaarden",
+    "navAbout": "Over Ons",
+    "navContact": "Contact",
+    "copyright": "© 2026 AVIFtoJPG.in"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Privacybeleid",
+      "subtitle": "Laatst bijgewerkt: 22 augustus 2026",
+      "intro": "Bij AVIFtoJPG.in staat uw privacy voorop.",
+      "fileProcessingTitle": "1. Lokale verwerking",
+      "fileProcessingText": "Alle conversies vinden lokaal plaats in uw browser via HTML5 Canvas. Uw bestanden worden nooit naar externe servers gestuurd.",
+      "dataCollectionTitle": "2. Gegevensverzameling",
+      "dataCollectionText": "U hoeft geen account aan te maken of persoonlijke gegevens te delen.",
+      "cookiesTitle": "3. Cookies en advertenties",
+      "cookiesText": "Wij gebruiken netwerken zoals Google AdSense om deze gratis dienst mogelijk te maken.",
+      "thirdPartyTitle": "4. Externe diensten",
+      "thirdPartyText": "Statische bestanden worden via snelle CDN's geladen.",
+      "rightsTitle": "5. Uw rechten",
+      "rightsText": "Omdat wij uw bestanden niet opslaan, houden wij geen databases met gebruikersbestanden bij.",
+      "contactTitle": "6. Contact",
+      "contactText": "Vragen over privacy: contact@aviftojpg.in"
+    },
+    "terms": {
+      "title": "Algemene Voorwaarden",
+      "subtitle": "Van kracht sinds: 22 augustus 2026",
+      "intro": "Lees deze voorwaarden door voordat u AVIFtoJPG.in gebruikt.",
+      "acceptableUseTitle": "1. Toegestaan gebruik",
+      "acceptableUseText": "De dienst is gratis beschikbaar voor persoonlijk en zakelijk gebruik.",
+      "userResponsibilitiesTitle": "2. Auteursrechten",
+      "userResponsibilitiesText": "U behoudt alle intellectuele eigendomsrechten op uw geconverteerde afbeeldingen.",
+      "availabilityTitle": "3. Beschikbaarheid",
+      "availabilityText": "Wij streven naar hoge beschikbaarheid zonder garanties voor continue uptime.",
+      "liabilityTitle": "4. Aansprakelijkheid",
+      "liabilityText": "De dienst wordt geleverd 'zoals deze is' zonder garanties.",
+      "jurisdictionTitle": "5. Toepasselijk recht",
+      "jurisdictionText": "Deze voorwaarden vallen onder het toepasselijk recht.",
+      "contactTitle": "6. Contact",
+      "contactText": "Voor vragen over de voorwaarden: contact@aviftojpg.in"
+    },
+    "about": {
+      "title": "Over AVIFtoJPG.in",
+      "subtitle": "Snelle, gratis en private AVIF naar JPG conversie",
+      "missionTitle": "Onze Missie",
+      "missionText": "Iedereen een veilige, snelle en betrouwbare manier bieden om AVIF-afbeeldingen direct in de browser naar universele JPG's om te zetten.",
+      "whyAvifTitle": "Waarom AVIF naar JPG?",
+      "whyAvifText": "AVIF bespaart ruimte, maar JPG werkt overal. Wij lossen het compatibiliteitsprobleem eenvoudig op.",
+      "howItWorksTitle": "Hoe het werkt",
+      "howItWorksText": "Alle verwerking vindt direct plaats in het werkgeheugen van uw browser.",
+      "futureDirectionTitle": "Toekomst",
+      "futureDirectionText": "Wij blijven de snelheid en compatibiliteit op alle apparaten optimaliseren."
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Neem contact op met het AVIFtoJPG.in-team",
+      "intro": "Heeft u vragen of feedback? Wij helpen u graag verder.",
+      "emailLabel": "E-mailadres",
+      "emailAddress": "contact@aviftojpg.in",
+      "emailDesc": "Stuur direct een e-mail naar ons ondersteuningsteam.",
+      "responseTime": "Wij reageren doorgaans binnen 24–48 uur.",
+      "noteTitle": "Opmerking over bestanden",
+      "noteText": "Omdat alles lokaal draait, hebben wij geen toegang tot of kopieën van uw afbeeldingen."
+    }
+  }
+}

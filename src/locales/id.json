@@ -1,0 +1,207 @@
+{
+  "langCode": "id",
+  "langName": "Indonesian",
+  "nativeName": "Bahasa Indonesia",
+  "meta": {
+    "pageTitle": "Konverter AVIF ke JPG – Konverter Gambar Online Gratis",
+    "metaDescription": "Konversi gambar AVIF ke format JPG dengan cepat dan mudah menggunakan konverter online gratis kami. Aman dan diproses langsung di browser Anda.",
+    "privacyTitle": "Kebijakan Privasi – AVIFtoJPG.in",
+    "privacyDescription": "Pelajari tentang arsitektur pemrosesan lokal di browser kami. Gambar Anda tidak pernah diunggah ke server kami.",
+    "termsTitle": "Ketentuan Layanan – AVIFtoJPG.in",
+    "termsDescription": "Ketentuan layanan dan panduan hukum penggunaan AVIFtoJPG.in.",
+    "aboutTitle": "Tentang Kami – AVIFtoJPG.in",
+    "aboutDescription": "Pelajari misi AVIFtoJPG.in dan cara kerja konverter gambar gratis berbasis browser kami.",
+    "contactTitle": "Kontak Kami – AVIFtoJPG.in",
+    "contactDescription": "Hubungi tim AVIFtoJPG.in untuk pertanyaan dan masukan."
+  },
+  "header": {
+    "brand": "AVIFtoJPG.in",
+    "language": "Bahasa"
+  },
+  "ad": {
+    "label": "Iklan",
+    "topSlot": "Banner Responsif Google AdSense (728 × 90)",
+    "sidebarSlot": "Iklan Bilah Samping Google AdSense (300 × 250 / 300 × 600)",
+    "midContentSlot": "Banner Responsif Google AdSense (728 × 90)"
+  },
+  "converter": {
+    "title": "Konverter AVIF ke JPG",
+    "description": "Konversi gambar AVIF ke format JPG dengan cepat dan mudah.",
+    "secondaryExplanation": "Proses gambar Anda langsung di browser Anda.",
+    "step1Title": "1. Unggah file AVIF Anda",
+    "step1Desc": "Klik UNGGAH FILE atau seret gambar AVIF Anda ke area unggah.",
+    "step2Title": "2. Unduh file JPG Anda",
+    "step2Desc": "Setelah konversi selesai, unduh file JPG hasil konversi.",
+    "qualityLabel": "Kualitas Gambar",
+    "qualityHelp": "Kualitas lebih tinggi dapat menghasilkan ukuran file lebih besar.",
+    "dropZoneTitle": "Seret File AVIF Anda ke Sini",
+    "dropZoneSubtitle": "atau klik untuk memilih dari perangkat",
+    "uploadButton": "UNGGAH FILE",
+    "dropZoneNote": "Hanya menerima file .avif • Mendukung banyak file sekaligus",
+    "privacyNotice": "Gambar Anda diproses di browser Anda dan tidak pernah diunggah ke server kami.",
+    "privacyLink": "Privasi",
+    "queueTitle": "Antrean Konversi",
+    "statusWaiting": "Menunggu...",
+    "statusConverting": "Mengonversi...",
+    "statusConverted": "Berhasil dikonversi",
+    "statusError": "Gagal mengonversi",
+    "btnDownload": "UNDUH",
+    "btnDownloadAll": "UNDUH SEMUA",
+    "btnClearQueue": "BERSIHKAN",
+    "btnTrySample": "Coba File Contoh",
+    "unsupportedBrowser": "Browser Anda tidak mendukung dekoding AVIF secara native. Silakan gunakan browser terbaru seperti Chrome, Edge, Safari, atau Firefox.",
+    "invalidFileType": "Hanya file gambar .avif yang didukung.",
+    "originalSize": "Asli",
+    "convertedSize": "Ukuran JPG"
+  },
+  "content": {
+    "mainHeading": "Konverter AVIF ke JPG",
+    "whatIsAvifTitle": "Apa itu AVIF?",
+    "whatIsAvifBody": "AVIF (AV1 Image File Format) adalah format gambar modern bebas royalti yang dikembangkan oleh Alliance for Open Media (AOMedia). Berbasis codec video AV1, AVIF menawarkan efisiensi kompresi yang jauh lebih unggul dibandingkan format lama seperti JPEG dan PNG.",
+    "whatIsJpgTitle": "Apa itu JPG?",
+    "whatIsJpgBody": "JPG (atau JPEG) adalah format gambar digital paling populer dan diakui secara global. Didukung secara native oleh hampir setiap peramban web, sistem operasi, editor foto, dan perangkat ponsel di dunia.",
+    "whyConvertTitle": "Mengapa mengonversi AVIF ke JPG?",
+    "whyConvertPoints": [
+      "Kompatibilitas Universal: Perangkat lunak lama dan aplikasi editor foto sering kali tidak dapat membuka file AVIF, sedangkan JPG dapat dibuka di mana saja.",
+      "Mudah Dibagikan: Banyak platform media sosial dan sistem CMS belum mendukung unggahan langsung format AVIF.",
+      "Pencetakan Foto: Mesin cetak foto dan printer kantor standar mengharapkan format JPG.",
+      "Kolaborasi Tanpa Hambatan: Mengirim file JPG memastikan penerima dapat langsung melihat gambar tanpa kendala teknis."
+    ],
+    "comparisonTitle": "Perbandingan AVIF vs JPG",
+    "comparisonRows": [
+      { "feature": "Efisiensi Kompresi", "avif": "Sangat Tinggi (hingga 50% lebih kecil)", "jpg": "Kompresi baseline standar" },
+      { "feature": "Kompatibilitas", "avif": "Hanya browser modern", "jpg": "100% universal di semua platform" },
+      { "feature": "Dukungan Transparansi", "avif": "Didukung (Alpha channel)", "jpg": "Tidak didukung" },
+      { "feature": "Kedalaman Warna", "avif": "8-bit, 10-bit, 12-bit HDR", "jpg": "Standar 8-bit SDR" },
+      { "feature": "Dukungan Animasi", "avif": "Didukung", "jpg": "Tidak didukung (statis)" },
+      { "feature": "Akselerasi Hardware", "avif": "Chip grafis terbaru", "jpg": "Didukung di semua hardware" }
+    ],
+    "howToTitle": "Cara mengonversi AVIF ke JPG secara online",
+    "howToSteps": [
+      { "step": 1, "title": "Unggah file AVIF", "desc": "Klik 'UNGGAH FILE' atau seret gambar .avif ke area konverter di atas." },
+      { "step": 2, "title": "Atur kualitas jika perlu", "desc": "Gunakan penggeser kualitas (standar 85% memberikan keseimbangan terbaik)." },
+      { "step": 3, "title": "Proses langsung di browser", "desc": "Browser Anda mengonversi gambar secara instan tanpa mengunggah file ke internet." },
+      { "step": 4, "title": "Unduh file JPG Anda", "desc": "Unduh per gambar atau klik 'UNDUH SEMUA' dalam satu file ZIP praktis." }
+    ],
+    "qualityExplainedTitle": "Penjelasan Kualitas JPG",
+    "qualityExplainedBody": "Saat mengonversi ke JPG, pengaturan kualitas menentukan tingkat kompresi. Pengaturan 85% memberikan kualitas visual yang sangat jernih dan ukuran file yang ringan.",
+    "areFilesUploadedTitle": "Apakah file saya diunggah ke server?",
+    "areFilesUploadedBody": "Tidak. AVIFtoJPG.in berjalan 100% di sisi klien. Semua pemrosesan berlangsung di memori browser Anda tanpa mengirimkan data ke luar.",
+    "isFreeTitle": "Apakah konversi AVIF ke JPG ini gratis?",
+    "isFreeBody": "Ya, AVIFtoJPG.in 100% gratis tanpa perlu registrasi, tanpa batasan file harian, dan tanpa watermark."
+  },
+  "faq": {
+    "heading": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "items": [
+      {
+        "question": "Apa itu AVIF?",
+        "answer": "AVIF adalah format gambar modern dengan kompresi tinggi dan kualitas visual tajam."
+      },
+      {
+        "question": "Apa itu JPG?",
+        "answer": "JPG adalah format gambar paling kompatibel dan umum digunakan di seluruh dunia."
+      },
+      {
+        "question": "Mengapa harus konversi AVIF ke JPG?",
+        "answer": "Agar foto Anda dapat dibuka dan digunakan di semua perangkat lama, media sosial, dan printer."
+      },
+      {
+        "question": "Apakah konverter ini gratis?",
+        "answer": "Ya, sepenuhnya gratis tanpa syarat pendaftaran atau biaya tersembunyi."
+      },
+      {
+        "question": "Apakah foto saya diunggah ke internet?",
+        "answer": "Tidak, seluruh konversi diproses di dalam browser komputer atau ponsel Anda."
+      },
+      {
+        "question": "Apakah konversi menurunkan kualitas gambar?",
+        "answer": "Dengan pengaturan standar 85%–90%, kualitas visual tetap terjaga dengan sangat baik."
+      },
+      {
+        "question": "Bisakah saya mengonversi banyak file sekaligus?",
+        "answer": "Bisa, Anda dapat mengunggah banyak file dan mengunduhnya dalam arsip ZIP."
+      },
+      {
+        "question": "Apakah bisa digunakan di ponsel?",
+        "answer": "Ya, konverter ini bekerja lancar di browser ponsel iOS dan Android."
+      },
+      {
+        "question": "Kualitas JPG apa yang sebaiknya saya pilih?",
+        "answer": "Kami sarankan 85% untuk kebutuhan umum dan 90–95% untuk cetak foto berkualitas tinggi."
+      },
+      {
+        "question": "Mengapa browser saya tidak bisa membuka file AVIF?",
+        "answer": "Browser lama belum memiliki dukungan AVIF. Mengonversinya ke JPG adalah solusi instan."
+      }
+    ]
+  },
+  "footer": {
+    "brand": "AVIFtoJPG.in",
+    "tagline": "Konversi AVIF ke JPG online gratis.",
+    "navHome": "Beranda",
+    "navPrivacy": "Kebijakan Privasi",
+    "navTerms": "Ketentuan Layanan",
+    "navAbout": "Tentang Kami",
+    "navContact": "Kontak",
+    "copyright": "© 2026 AVIFtoJPG.in"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "subtitle": "Terakhir diperbarui: 22 Agustus 2026",
+      "intro": "Di AVIFtoJPG.in, privasi Anda adalah komitmen utama kami.",
+      "fileProcessingTitle": "1. Pemrosesan File di Browser",
+      "fileProcessingText": "Semua konversi gambar dilakukan langsung di peramban Anda menggunakan HTML5 Canvas. Gambar Anda tidak pernah dikirim ke server eksternal.",
+      "dataCollectionTitle": "2. Pengumpulan Data",
+      "dataCollectionText": "Kami tidak meminta pembuatan akun atau data pribadi untuk menggunakan alat ini.",
+      "cookiesTitle": "3. Cookie & Iklan",
+      "cookiesText": "Kami menampilkan iklan melalui jaringan seperti Google AdSense untuk mendanai layanan gratis ini.",
+      "thirdPartyTitle": "4. Layanan Pihak Ketiga",
+      "thirdPartyText": "Aset statis dimuat melalui CDN berkecepatan tinggi demi performa optimal.",
+      "rightsTitle": "5. Hak Pengguna",
+      "rightsText": "Karena kami tidak menyimpan file Anda, kami tidak memiliki catatan basis data gambar pengguna.",
+      "contactTitle": "6. Kontak Privasi",
+      "contactText": "Pertanyaan seputar privasi dapat dikirim ke: contact@aviftojpg.in"
+    },
+    "terms": {
+      "title": "Ketentuan Layanan",
+      "subtitle": "Berlaku sejak: 22 Agustus 2026",
+      "intro": "Harap baca ketentuan ini sebelum menggunakan AVIFtoJPG.in.",
+      "acceptableUseTitle": "1. Penggunaan yang Wajar",
+      "acceptableUseText": "Layanan ini disediakan secara gratis untuk keperluan pribadi maupun komersial yang sah.",
+      "userResponsibilitiesTitle": "2. Hak Cipta & Tanggung Jawab",
+      "userResponsibilitiesText": "Anda memegang hak cipta penuh atas gambar yang Anda konversi.",
+      "availabilityTitle": "3. Ketersediaan Layanan",
+      "availabilityText": "Kami berupaya menjaga layanan tetap aktif tanpa menjamin operasional bebas gangguan 100%.",
+      "liabilityTitle": "4. Batasan Tanggung Jawab",
+      "liabilityText": "Layanan disediakan 'apa adanya' tanpa jaminan tambahan dalam bentuk apa pun.",
+      "jurisdictionTitle": "5. Hukum yang Berlaku",
+      "jurisdictionText": "Ketentuan ini diatur oleh hukum yang berlaku.",
+      "contactTitle": "6. Kontak Ketentuan",
+      "contactText": "Hubungi: contact@aviftojpg.in"
+    },
+    "about": {
+      "title": "Tentang AVIFtoJPG.in",
+      "subtitle": "Konversi AVIF ke JPG Cepat, Gratis & Privat",
+      "missionTitle": "Misi Kami",
+      "missionText": "Menyediakan alat konversi gambar AVIF ke JPG yang super cepat, aman, dan tanpa upload bagi pengguna di seluruh dunia.",
+      "whyAvifTitle": "Mengapa AVIF ke JPG?",
+      "whyAvifText": "Format AVIF efisien tetapi belum universal. Kami membantu menyelesaikan masalah kompatibilitas secara mudah.",
+      "howItWorksTitle": "Cara Kerja",
+      "howItWorksText": "Seluruh proses dilakukan di memori perangkat Anda secara lokal.",
+      "futureDirectionTitle": "Rencana Masa Depan",
+      "futureDirectionText": "Kami terus mengoptimalkan kecepatan dan kenyamanan penggunaan di semua perangkat."
+    },
+    "contact": {
+      "title": "Kontak Kami",
+      "subtitle": "Hubungi Tim AVIFtoJPG.in",
+      "intro": "Punya pertanyaan, kritik, atau saran perbaikan? Kami siap membantu.",
+      "emailLabel": "Email Dukungan",
+      "emailAddress": "contact@aviftojpg.in",
+      "emailDesc": "Kirimkan email langsung ke tim kami.",
+      "responseTime": "Kami biasanya membalas dalam 24–48 jam kerja.",
+      "noteTitle": "Catatan Terkait File",
+      "noteText": "Karena semua proses bersifat lokal di browser, kami tidak memiliki salinan gambar Anda."
+    }
+  }
+}

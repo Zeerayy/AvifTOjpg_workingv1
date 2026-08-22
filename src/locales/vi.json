@@ -1,0 +1,211 @@
+{
+  "langCode": "vi",
+  "langName": "Vietnamese",
+  "nativeName": "Tiếng Việt",
+  "meta": {
+    "pageTitle": "Chuyển đổi AVIF sang JPG – Công cụ chuyển đổi ảnh online miễn phí",
+    "metaDescription": "Chuyển đổi hình ảnh AVIF sang định dạng JPG nhanh chóng và dễ dàng bằng công cụ trực tuyến miễn phí của chúng tôi. Xử lý trực tiếp trên trình duyệt, an toàn bảo mật tuyệt đối.",
+    "privacyTitle": "Chính sách Bảo mật – AVIFtoJPG.in",
+    "privacyDescription": "Tìm hiểu về kiến trúc xử lý ảnh cục bộ trên trình duyệt của chúng tôi. Ảnh của bạn không bao giờ được tải lên máy chủ.",
+    "termsTitle": "Điều khoản Dịch vụ – AVIFtoJPG.in",
+    "termsDescription": "Điều khoản dịch vụ và quy định sử dụng AVIFtoJPG.in.",
+    "aboutTitle": "Giới thiệu – AVIFtoJPG.in",
+    "aboutDescription": "Tìm hiểu sứ mệnh của AVIFtoJPG.in và cách hoạt động của công cụ chuyển đổi miễn phí trên trình duyệt.",
+    "contactTitle": "Liên hệ – AVIFtoJPG.in",
+    "contactDescription": "Liên hệ với đội ngũ AVIFtoJPG.in nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào."
+  },
+  "header": {
+    "brand": "AVIFtoJPG.in",
+    "language": "Ngôn ngữ"
+  },
+  "ad": {
+    "label": "Quảng cáo",
+    "topSlot": "Google AdSense Banner Thích ứng (728 × 90)",
+    "sidebarSlot": "Google AdSense Quảng cáo Thanh bên (300 × 250 / 300 × 600)",
+    "midContentSlot": "Google AdSense Banner Thích ứng (728 × 90)"
+  },
+  "converter": {
+    "title": "Chuyển đổi AVIF sang JPG",
+    "description": "Chuyển đổi hình ảnh AVIF sang định dạng JPG nhanh chóng và tiện lợi.",
+    "secondaryExplanation": "Xử lý hình ảnh của bạn trực tiếp ngay trong trình duyệt.",
+    "step1Title": "1. Tải lên tệp AVIF của bạn",
+    "step1Desc": "Nhấp vào TẢI TỆP LÊN hoặc kéo thả hình ảnh AVIF vào khu vực tải lên.",
+    "step2Title": "2. Tải về tệp JPG của bạn",
+    "step2Desc": "Sau khi quá trình chuyển đổi hoàn tất, hãy tải về các tệp JPG kết quả.",
+    "qualityLabel": "Chất lượng hình ảnh",
+    "qualityHelp": "Chất lượng cao hơn có thể làm tăng dung lượng tệp.",
+    "dropZoneTitle": "Kéo và thả tệp AVIF vào đây",
+    "dropZoneSubtitle": "hoặc nhấp để chọn tệp từ thiết bị",
+    "uploadButton": "TẢI TỆP LÊN",
+    "dropZoneNote": "Chỉ chấp nhận tệp .avif • Hỗ trợ chuyển đổi hàng loạt",
+    "privacyNotice": "Hình ảnh của bạn được xử lý trong trình duyệt và không tải lên máy chủ của chúng tôi.",
+    "privacyLink": "Bảo mật",
+    "queueTitle": "Hàng đợi chuyển đổi",
+    "statusWaiting": "Đang chờ...",
+    "statusConverting": "Đang chuyển đổi...",
+    "statusConverted": "Chuyển đổi thành công",
+    "statusError": "Lỗi chuyển đổi",
+    "btnDownload": "TẢI VỀ",
+    "btnDownloadAll": "TẢI VỀ TẤT CẢ",
+    "btnClearQueue": "XÓA DANH SÁCH",
+    "btnTrySample": "Dùng thử tệp mẫu",
+    "unsupportedBrowser": "Trình duyệt của bạn không hỗ trợ giải mã AVIF gốc. Vui lòng sử dụng Chrome, Edge, Safari hoặc Firefox phiên bản mới.",
+    "invalidFileType": "Chỉ hỗ trợ các tệp hình ảnh định dạng .avif.",
+    "originalSize": "Gốc",
+    "convertedSize": "Kích thước JPG"
+  },
+  "content": {
+    "mainHeading": "Chuyển đổi AVIF sang JPG",
+    "whatIsAvifTitle": "AVIF là gì?",
+    "whatIsAvifBody": "AVIF (AV1 Image File Format) là định dạng hình ảnh hiện đại, mã nguồn mở và miễn phí bản quyền do Alliance for Open Media (AOMedia) phát triển. Dựa trên công nghệ nén video AV1, AVIF mang lại hiệu suất nén vượt trội hơn nhiều so với các định dạng cũ như JPEG và PNG.",
+    "whatIsJpgTitle": "JPG là gì?",
+    "whatIsJpgBody": "JPG (hay JPEG) là định dạng hình ảnh kỹ thuật số phổ biến và tương thích nhất trên toàn thế giới. Định dạng này được hỗ trợ mặc định trên hầu như mọi trình duyệt web, hệ điều hành, phần mềm chỉnh sửa ảnh và điện thoại di động.",
+    "whyConvertTitle": "Tại sao nên chuyển đổi AVIF sang JPG?",
+    "whyConvertPoints": [
+      "Tính tương thích toàn diện: Các phần mềm đồ họa và hệ điều hành cũ thường không thể mở tệp AVIF, trong khi JPG mở được trên mọi thiết bị.",
+      "Chia sẻ mạng xã hội: Nhiều nền tảng mạng xã hội và hệ thống quản trị website vẫn chưa hỗ trợ tải lên trực tiếp tệp AVIF.",
+      "In ấn hình ảnh: Các xưởng in ảnh và máy in tiêu chuẩn luôn yêu cầu tệp định dạng JPG.",
+      "Cộng tác thuận tiện: Gửi tệp JPG giúp đối tác và khách hàng xem ảnh ngay lập tức mà không cần cài thêm phần mềm hỗ trợ."
+    ],
+    "comparisonTitle": "So sánh AVIF và JPG",
+    "comparisonRows": [
+      { "feature": "Hiệu suất nén", "avif": "Vượt trội (nhỏ hơn tới 50%)", "jpg": "Nén tiêu chuẩn thông dụng" },
+      { "feature": "Độ tương thích", "avif": "Chỉ trình duyệt hiện đại", "jpg": "100% trên mọi nền tảng thiết bị" },
+      { "feature": "Độ trong suốt (Alpha)", "avif": "Có hỗ trợ", "jpg": "Không hỗ trợ" },
+      { "feature": "Độ sâu màu", "avif": "8, 10, 12 bit HDR", "jpg": "Tiêu chuẩn 8 bit SDR" },
+      { "feature": "Hỗ trợ ảnh động", "avif": "Có hỗ trợ", "jpg": "Không hỗ trợ (ảnh tĩnh)" },
+      { "feature": "Tăng tốc phần cứng", "avif": "Các vi xử lý đồ họa mới", "jpg": "Tăng tốc trên mọi phần cứng" }
+    ],
+    "howToTitle": "Cách chuyển đổi AVIF sang JPG trực tuyến",
+    "howToSteps": [
+      { "step": 1, "title": "Tải tệp AVIF lên", "desc": "Nhấp 'TẢI TỆP LÊN' hoặc kéo thả tệp .avif vào khu vực chuyển đổi." },
+      { "step": 2, "title": "Tùy chỉnh chất lượng", "desc": "Điều chỉnh thanh trượt chất lượng (mặc định 85% là mức tối ưu nhất)." },
+      { "step": 3, "title": "Xử lý trực tiếp trong trình duyệt", "desc": "Trình duyệt tự động chuyển đổi ảnh trong tích tắc mà không cần truyền dữ liệu ra ngoài." },
+      { "step": 4, "title": "Tải về tệp JPG", "desc": "Tải từng ảnh hoặc chọn 'TẢI VỀ TẤT CẢ' dưới dạng tệp nén ZIP." }
+    ],
+    "qualityExplainedTitle": "Giải thích về chất lượng JPG",
+    "qualityExplainedBody": "Khi chuyển đổi sang JPG, chỉ số chất lượng quyết định tỷ lệ nén. Mức 85% mang lại độ sắc nét tương đương ảnh gốc trong khi tiết kiệm đáng kể dung lượng lưu trữ.",
+    "areFilesUploadedTitle": "Tệp của tôi có bị tải lên máy chủ không?",
+    "areFilesUploadedBody": "Tuyệt đối không. AVIFtoJPG.in hoạt động 100% trên phía người dùng (trình duyệt). Toàn bộ quá trình diễn ra trong bộ nhớ máy của bạn và không có dữ liệu nào được gửi đi.",
+    "isFreeTitle": "Chuyển đổi AVIF sang JPG có miễn phí không?",
+    "isFreeBody": "Có, AVIFtoJPG.in hoàn toàn miễn phí, không cần đăng ký tài khoản, không giới hạn số lượng và không có hình mờ."
+  },
+  "faq": {
+    "heading": "Câu hỏi thường gặp (FAQ)",
+    "items": [
+      {
+        "question": "AVIF là gì?",
+        "answer": "AVIF là định dạng ảnh thế hệ mới có khả năng nén siêu nhỏ mà vẫn giữ nguyên độ chi tiết cao."
+      },
+      {
+        "question": "JPG là gì?",
+        "answer": "JPG là định dạng ảnh kỹ thuật số tiêu chuẩn được hỗ trợ phổ biến nhất trên toàn cầu."
+      },
+      {
+        "question": "Vì sao cần chuyển đổi từ AVIF sang JPG?",
+        "answer": "Để ảnh có thể xem và chỉnh sửa được trên tất cả các phần mềm, máy in và thiết bị cũ."
+      },
+      {
+        "question": "Công cụ này có mất phí không?",
+        "answer": "Hoàn toàn miễn phí 100% không giới hạn."
+      },
+      {
+        "question": "Hình ảnh của tôi có bị lưu lại trên mạng không?",
+        "answer": "Không, toàn bộ quá trình chuyển đổi chỉ diễn ra cục bộ trong trình duyệt của bạn."
+      },
+      {
+        "question": "Chuyển đổi có làm giảm chất lượng ảnh không?",
+        "answer": "Với mức chất lượng mặc định 85%–90%, mắt thường hầu như không nhận ra sự khác biệt."
+      },
+      {
+        "question": "Tôi có thể chuyển đổi nhiều ảnh cùng lúc không?",
+        "answer": "Có, bạn có thể tải lên nhiều tệp AVIF và tải về tất cả trong một tệp ZIP duy nhất."
+      },
+      {
+        "question": "Có dùng được trên điện thoại không?",
+        "answer": "Có, công cụ chạy mượt mà trên tất cả các trình duyệt di động iOS và Android."
+      },
+      {
+        "question": "Nên chọn mức chất lượng JPG nào?",
+        "answer": "Chúng tôi khuyên dùng 85% cho web và mạng xã hội, 90–95% cho nhu cầu in ấn chất lượng cao."
+      },
+      {
+        "question": "Tại sao máy tính của tôi không mở được tệp AVIF?",
+        "answer": "Do hệ điều hành hoặc phần mềm xem ảnh chưa tích hợp bộ giải mã AVIF. Chuyển sang JPG sẽ giải quyết ngay."
+      }
+    ]
+  },
+  "footer": {
+    "brand": "AVIFtoJPG.in",
+    "tagline": "Chuyển đổi AVIF sang JPG trực tuyến miễn phí.",
+    "navHome": "Trang chủ",
+    "navPrivacy": "Chính sách Bảo mật",
+    "navTerms": "Điều khoản Dịch vụ",
+    "navAbout": "Giới thiệu",
+    "navContact": "Liên hệ",
+    "copyright": "© 2026 AVIFtoJPG.in"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Chính sách Bảo mật",
+      "subtitle": "Cập nhật lần cuối: 22 tháng 8 năm 2026",
+      "intro": "Tại AVIFtoJPG.in, sự riêng tư của bạn là ưu tiên hàng đầu trong thiết kế của chúng tôi.",
+      "fileProcessingTitle": "1. Xử lý tệp cục bộ trên trình duyệt",
+      "fileProcessingText": "Mọi thao tác chuyển đổi ảnh đều được thực thi trên máy của bạn thông qua HTML5 Canvas. Tệp ảnh không bao giờ được truyền đến máy chủ bên ngoài.",
+      "dataCollectionTitle": "2. Thu thập dữ liệu",
+      "dataCollectionText": "Chúng tôi không yêu cầu tạo tài khoản hay cung cấp thông tin cá nhân nào khi sử dụng công cụ.",
+      "cookiesTitle": "3. Cookie và Quảng cáo",
+      "cookiesText": "Chúng tôi có thể hiển thị quảng cáo từ Google AdSense để duy trì máy chủ cho dịch vụ miễn phí này.",
+      "thirdPartyTitle": "4. Dịch vụ bên thứ ba",
+      "thirdPartyText": "Các tài nguyên tĩnh được phân phối thông qua mạng phân phối nội dung (CDN) tốc độ cao.",
+      "rightsTitle": "5. Quyền của người dùng",
+      "rightsText": "Vì chúng tôi không lưu trữ bất kỳ hình ảnh nào, nên không có cơ sở dữ liệu ảnh người dùng nào được tạo ra.",
+      "contactTitle": "6. Liên hệ",
+      "contactText": "Mọi thắc mắc về quyền riêng tư xin gửi về: contact@aviftojpg.in"
+    },
+    "terms": {
+      "title": "Điều khoản Dịch vụ",
+      "subtitle": "Có hiệu lực từ: 22 tháng 8 năm 2026",
+      "intro": "Vui lòng đọc kỹ các điều khoản này trước khi sử dụng AVIFtoJPG.in.",
+      "acceptableUseTitle": "1. Sử dụng hợp pháp",
+      "acceptableUseText": "Dịch vụ được cung cấp miễn phí cho các mục đích cá nhân và thương mại hợp pháp.",
+      "userResponsibilitiesTitle": "2. Bản quyền",
+      "userResponsibilitiesText": "Bạn giữ toàn bộ quyền sở hữu trí tuệ đối với các hình ảnh được xử lý.",
+      "availabilityTitle": "3. Tính sẵn sàng",
+      "availabilityText": "Chúng tôi nỗ lực duy trì tính sẵn sàng cao nhưng không cam kết hoạt động 100% không gián đoạn.",
+      "liabilityTitle": "4. Giới hạn trách nhiệm",
+      "liabilityText": "Dịch vụ được cung cấp 'nguyên trạng' mà không có bảo đảm kèm theo.",
+      "jurisdictionTitle": "5. Luật áp dụng",
+      "jurisdictionText": "Các điều khoản này chịu sự điều chỉnh của các quy định pháp luật hiện hành.",
+      "contactTitle": "6. Thông tin liên hệ",
+      "contactText": "Liên hệ về điều khoản: contact@aviftojpg.in"
+    },
+    "about": {
+      "title": "Giới thiệu AVIFtoJPG.in",
+      "subtitle": "Chuyển đổi AVIF sang JPG nhanh chóng, miễn phí và bảo mật",
+      "missionTitle": "Sứ mệnh của chúng tôi",
+      "missionText": "Cung cấp cho người dùng công cụ chuyển đổi định dạng ảnh AVIF sang JPG tức thì, không cần tải lên máy chủ, bảo mật tuyệt đối.",
+      "whyAvifTitle": "Vì sao chuyển đổi AVIF sang JPG?",
+      "whyAvifText": "AVIF giúp tiết kiệm dung lượng nhưng chưa hỗ trợ toàn diện. Chúng tôi giúp bạn khắc phục rào cản tương thích đó một cách dễ dàng.",
+      "howItWorksTitle": "Cách hoạt động",
+      "howItWorksText": "Toàn bộ mã xử lý chạy trực tiếp trong bộ nhớ trình duyệt của người dùng.",
+      "futureDirectionTitle": "Định hướng phát triển",
+      "futureDirectionText": "Chúng tôi tiếp tục tối ưu hóa hiệu năng giải mã để mang lại tốc độ nhanh nhất trên mọi dòng máy.",
+      "contact": {
+        "title": "Liên hệ",
+        "subtitle": "Trao đổi với đội ngũ AVIFtoJPG.in"
+      }
+    },
+    "contact": {
+      "title": "Liên hệ chúng tôi",
+      "subtitle": "Gửi ý kiến đóng góp cho AVIFtoJPG.in",
+      "intro": "Bạn có thắc mắc, đề xuất tính năng hay báo lỗi? Đừng ngần ngại liên hệ với chúng tôi.",
+      "emailLabel": "Email hỗ trợ",
+      "emailAddress": "contact@aviftojpg.in",
+      "emailDesc": "Gửi email trực tiếp đến đội ngũ hỗ trợ.",
+      "responseTime": "Chúng tôi thường phản hồi trong vòng 24–48 giờ làm việc.",
+      "noteTitle": "Lưu ý về tệp tin",
+      "noteText": "Do toàn bộ xử lý diễn ra trên trình duyệt của bạn, chúng tôi không lưu trữ bất kỳ bản sao nào của hình ảnh."
+    }
+  }
+}

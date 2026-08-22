@@ -1,0 +1,207 @@
+{
+  "langCode": "ja",
+  "langName": "Japanese",
+  "nativeName": "日本語",
+  "meta": {
+    "pageTitle": "AVIF JPG 変換 – 無料オンライン画像コンバーター",
+    "metaDescription": "無料のオンラインAVIF JPG変換ツールで、AVIF画像を素早く簡単にJPG形式に変換。ブラウザ内で完結しプライバシーも安心。",
+    "privacyTitle": "プライバシーポリシー – AVIFtoJPG.in",
+    "privacyDescription": "ブラウザ内ローカル処理による安心のプライバシー方針をご案内します。画像がサーバーに送信されることはありません。",
+    "termsTitle": "利用規約 – AVIFtoJPG.in",
+    "termsDescription": "AVIFtoJPG.inの利用規約および法的ガイドライン。",
+    "aboutTitle": "運営者情報 – AVIFtoJPG.in",
+    "aboutDescription": "AVIFtoJPG.inの設立理念と完全ブラウザ完結型画像変換ツールの仕組みについて。",
+    "contactTitle": "お問い合わせ – AVIFtoJPG.in",
+    "contactDescription": "ご質問やご意見はAVIFtoJPG.inチームまでお気軽にお問い合わせください。"
+  },
+  "header": {
+    "brand": "AVIFtoJPG.in",
+    "language": "言語"
+  },
+  "ad": {
+    "label": "広告",
+    "topSlot": "Google AdSense レスポンシブバナー広告 (728 × 90)",
+    "sidebarSlot": "Google AdSense サイドバー広告 (300 × 250 / 300 × 600)",
+    "midContentSlot": "Google AdSense レスポンシブバナー広告 (728 × 90)"
+  },
+  "converter": {
+    "title": "AVIF JPG 変換コンバーター",
+    "description": "AVIF画像をすばやく簡単にJPG形式に変換します。",
+    "secondaryExplanation": "お使いのブラウザ上で画像を直接安全に処理します。",
+    "step1Title": "1. AVIFファイルをアップロード",
+    "step1Desc": "「ファイルをアップロード」をクリックするか、AVIF画像を点線エリアにドラッグ＆ドロップします。",
+    "step2Title": "2. JPGファイルをダウンロード",
+    "step2Desc": "変換完了後、生成されたJPG画像をダウンロードします。",
+    "qualityLabel": "画質設定",
+    "qualityHelp": "画質を高く設定するとファイル容量が大きくなる場合があります。",
+    "dropZoneTitle": "ここにAVIFファイルをドロップ",
+    "dropZoneSubtitle": "またはクリックして端末から選択",
+    "uploadButton": "ファイルをアップロード",
+    "dropZoneNote": ".avifファイルのみ対応 • 複数ファイルの一括変換に対応",
+    "privacyNotice": "画像はお使いのブラウザ内でのみ処理され、サーバーに送信されることは一切ありません。",
+    "privacyLink": "プライバシー方針",
+    "queueTitle": "変換キュー",
+    "statusWaiting": "待機中...",
+    "statusConverting": "変換中...",
+    "statusConverted": "変換完了",
+    "statusError": "変換エラー",
+    "btnDownload": "ダウンロード",
+    "btnDownloadAll": "すべてダウンロード",
+    "btnClearQueue": "キューをクリア",
+    "btnTrySample": "サンプルファイルを試す",
+    "unsupportedBrowser": "お使いのブラウザはAVIFのネイティブデコードに対応していません。最新のChrome、Edge、Safari、Firefoxをご利用ください。",
+    "invalidFileType": ".avif画像ファイルのみ選択可能です。",
+    "originalSize": "元サイズ",
+    "convertedSize": "JPGサイズ"
+  },
+  "content": {
+    "mainHeading": "AVIF JPG 変換コンバーター",
+    "whatIsAvifTitle": "AVIFとは？",
+    "whatIsAvifBody": "AVIF（AV1 Image File Format）は、Alliance for Open Media（AOMedia）によって策定された最新のオープン規格画像フォーマットです。高効率なAV1動画コーデック技術を応用しており、従来のJPEGやPNGと比較して非常に高い圧縮率と鮮明な画質を両立しています。",
+    "whatIsJpgTitle": "JPGとは？",
+    "whatIsJpgBody": "JPG（またはJPEG）は、世界で最も広く普及している汎用デジタル画像フォーマットです。ほぼすべてのWebブラウザ、パソコン、スマートフォン、画像編集ソフト、SNSで標準対応しています。",
+    "whyConvertTitle": "なぜAVIFをJPGに変換するのか？",
+    "whyConvertPoints": [
+      "圧倒的な互換性: 旧型のOSや古いバージョンのPhotoshopなどではAVIFを開けない場合が多いですが、JPGならあらゆる環境で問題なく開けます。",
+      "SNS・Webサイトへの投稿: 多くのSNSやWebサービス、ECサイトではまだAVIFの直接アップロードに対応していません。",
+      "写真プリント・現像: 街の写真店や一般的なプリンターは標準のJPGファイルを前提としています。",
+      "スムーズな共有: 取引先や友人にJPGで共有すれば、相手の環境を気にせず確実に閲覧・編集してもらえます。"
+    ],
+    "comparisonTitle": "AVIFとJPGの比較",
+    "comparisonRows": [
+      { "feature": "圧縮効率", "avif": "極めて高い（JPG比で最大50%削減）", "jpg": "標準的な基本圧縮" },
+      { "feature": "互換性", "avif": "最新ブラウザのみ対応", "jpg": "100%全プラットフォーム対応" },
+      { "feature": "透過処理（アルファ）", "avif": "対応", "jpg": "非対応（背景色で塗りつぶし）" },
+      { "feature": "色深度", "avif": "8/10/12ビット HDR対応", "jpg": "標準8ビット SDR" },
+      { "feature": "アニメーション", "avif": "対応", "jpg": "非対応（静止画のみ）" },
+      { "feature": "ハードウェア再生", "avif": "最新チップのみ", "jpg": "すべての機器でハードウェア再生" }
+    ],
+    "howToTitle": "オンラインでAVIFをJPGに変換する方法",
+    "howToSteps": [
+      { "step": 1, "title": "AVIFファイルを読み込む", "desc": "「ファイルをアップロード」をクリックするか、.avifファイルをドロップします。" },
+      { "step": 2, "title": "画質を調整（任意）", "desc": "スライダーでお好みの品質を設定します（標準の85%が画質と容量のベストバランスです）。" },
+      { "step": 3, "title": "ブラウザ内で即時処理", "desc": "ブラウザの機能により端末内で瞬時にデコード・変換されます。" },
+      { "step": 4, "title": "JPGをダウンロード", "desc": "各画像の「ダウンロード」を押すか、「すべてダウンロード」でZIP保存します。" }
+    ],
+    "qualityExplainedTitle": "JPG画質設定について",
+    "qualityExplainedBody": "JPG変換時の画質設定は圧縮率を決定します。85%の設定では、元画像と肉眼で区別がつかないほどの高画質を保ちながらファイルサイズを大幅に削減できます。印刷用途には90%以上、Web用には60〜75%が適しています。",
+    "areFilesUploadedTitle": "画像がサーバーにアップロードされることはありますか？",
+    "areFilesUploadedBody": "一切ありません。AVIFtoJPG.inは100%クライアントサイド（ブラウザ内）完結設計です。画像のデコードや再エンコードはすべてお使いの端末のメモリ上で行われ、外部サーバーに画像データが送信されることはありません。",
+    "isFreeTitle": "AVIFからJPGへの変換は無料ですか？",
+    "isFreeBody": "はい、AVIFtoJPG.inは完全無料でご利用いただけます。会員登録不要、枚数制限なし、透かし（ウォーターマーク）も一切入りません。"
+  },
+  "faq": {
+    "heading": "よくある質問 (FAQ)",
+    "items": [
+      {
+        "question": "AVIFとはどのような形式ですか？",
+        "answer": "次世代の高圧縮画像形式で、画質を保ったままファイルサイズを大幅に小さくできるのが特徴です。"
+      },
+      {
+        "question": "JPGとは何ですか？",
+        "answer": "世界中で最も広く使われている標準画像形式で、すべてのデバイスで開くことができます。"
+      },
+      {
+        "question": "なぜAVIFをJPGに変換する必要があるのですか？",
+        "answer": "古いソフトウェアやSNS、印刷機など、AVIFに未対応の環境で画像を利用できるようにするためです。"
+      },
+      {
+        "question": "このツールは無料ですか？",
+        "answer": "はい、登録不要でどなたでも完全無料でご利用いただけます。"
+      },
+      {
+        "question": "画像はインターネット上に保存されますか？",
+        "answer": "いいえ。すべての処理はお使いのブラウザ内部で行われるため、外部に保存されることはありません。"
+      },
+      {
+        "question": "変換すると画質は落ちますか？",
+        "answer": "推奨の85%〜90%設定では、劣化を感じることなく綺麗に変換されます。"
+      },
+      {
+        "question": "複数枚のAVIFを一括変換できますか？",
+        "answer": "はい、複数のファイルをまとめてアップロードし、一括ZIPダウンロードが可能です。"
+      },
+      {
+        "question": "スマートフォンでも利用できますか？",
+        "answer": "はい、iPhoneやAndroidの主要ブラウザで快適にご利用いただけます。"
+      },
+      {
+        "question": "どの画質設定を選ぶべきですか？",
+        "answer": "Webや一般的な保存用には85%、高精細な印刷用には90〜95%をおすすめします。"
+      },
+      {
+        "question": "端末でAVIFが開けないのはなぜですか？",
+        "answer": "OSやアプリがAVIFの最新デコーダーを搭載していないためです。JPGに変換することで解決します。"
+      }
+    ]
+  },
+  "footer": {
+    "brand": "AVIFtoJPG.in",
+    "tagline": "無料のオンラインAVIF JPG変換ツール。",
+    "navHome": "ホーム",
+    "navPrivacy": "プライバシーポリシー",
+    "navTerms": "利用規約",
+    "navAbout": "運営者情報",
+    "navContact": "お問い合わせ",
+    "copyright": "© 2026 AVIFtoJPG.in"
+  },
+  "pages": {
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "subtitle": "最終更新日: 2026年8月22日",
+      "intro": "AVIFtoJPG.inでは、ユーザーのプライバシー保護を最優先事項として設計しています。",
+      "fileProcessingTitle": "1. ブラウザ内ローカル処理",
+      "fileProcessingText": "すべての画像変換はHTML5 Canvas技術を利用してブラウザ内部で行われます。画像ファイルが当サイトのサーバーにアップロードされることはありません。",
+      "dataCollectionTitle": "2. 個人情報の収集",
+      "dataCollectionText": "ツールの利用にあたってユーザー登録や個人情報の入力は一切不要です。",
+      "cookiesTitle": "3. クッキーと広告配信",
+      "cookiesText": "無料サービスの維持運営のため、Google AdSense等の広告ネットワークを利用しています。",
+      "thirdPartyTitle": "4. サードパーティサービス",
+      "thirdPartyText": "高速な配信を実現するため、静的アセットはCDN経由で配信されます。",
+      "rightsTitle": "5. ユーザーの権利",
+      "rightsText": "当サイトはユーザーの画像データを保存しないため、画像データの蓄積や流出の心配はありません。",
+      "contactTitle": "6. お問い合わせ",
+      "contactText": "プライバシーに関するお問い合わせ先: contact@aviftojpg.in"
+    },
+    "terms": {
+      "title": "利用規約",
+      "subtitle": "発効日: 2026年8月22日",
+      "intro": "AVIFtoJPG.inをご利用いただく前に本規約をご確認ください。",
+      "acceptableUseTitle": "1. 適切な利用",
+      "acceptableUseText": "当サービスは個人・商用・教育目的を問わず無料でご利用いただけます。",
+      "userResponsibilitiesTitle": "2. 著作権とユーザーの責任",
+      "userResponsibilitiesText": "処理される画像の著作権はすべてユーザーに帰属します。",
+      "availabilityTitle": "3. サービスの提供と変更",
+      "availabilityText": "安定したサービス提供に努めますが、中断のない稼働を保証するものではありません。",
+      "liabilityTitle": "4. 免責事項",
+      "liabilityText": "本サービスは現状有姿で提供され、直接的または間接的な損害について責任を負いません。",
+      "jurisdictionTitle": "5. 準拠法",
+      "jurisdictionText": "本規約は関連法令に準拠します。",
+      "contactTitle": "6. 連絡先",
+      "contactText": "利用規約に関するお問い合わせ: contact@aviftojpg.in"
+    },
+    "about": {
+      "title": "AVIFtoJPG.inについて",
+      "subtitle": "安全で高速なブラウザ完結型AVIF JPG変換ツール",
+      "missionTitle": "私たちの理念",
+      "missionText": "世界中のクリエイターや一般ユーザーに、一切のアップロード不要で安全に画像を変換できる手段を提供することです。",
+      "whyAvifTitle": "なぜAVIFからJPGなのか？",
+      "whyAvifText": "AVIFは優れていますが、まだ対応していない機器が多く存在します。私たちはその互換性の壁を解消します。",
+      "howItWorksTitle": "ツールの仕組み",
+      "howItWorksText": "サーバーに画像をアップロードする旧来の方法と異なり、お使いのブラウザ内部で安全に高速処理されます。",
+      "futureDirectionTitle": "今後の展開",
+      "futureDirectionText": "あらゆる端末でより快適にご利用いただけるよう、処理性能の向上を継続します。"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "subtitle": "AVIFtoJPG.inチームへのご連絡",
+      "intro": "機能改善のご提案や不具合のご報告など、お気軽にお問い合わせください。",
+      "emailLabel": "サポートメール",
+      "emailAddress": "contact@aviftojpg.in",
+      "emailDesc": "サポートチーム宛に直接メールをお送りください。",
+      "responseTime": "通常24〜48営業時間以内にご返信いたします。",
+      "noteTitle": "ファイルに関するご案内",
+      "noteText": "当サイトは画像をサーバーに一切保存しないため、変換された画像の複製を当方で確認・保持することはできません。"
+    }
+  }
+}

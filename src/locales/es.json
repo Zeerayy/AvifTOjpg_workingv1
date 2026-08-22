@@ -1,0 +1,207 @@
+{
+  "langCode": "es",
+  "langName": "Spanish",
+  "nativeName": "Español",
+  "meta": {
+    "pageTitle": "Convertidor AVIF a JPG – Convertidor de imágenes online gratis",
+    "metaDescription": "Convierte imágenes AVIF a formato JPG de forma rápida y sencilla con nuestro convertidor gratuito en línea.",
+    "privacyTitle": "Política de Privacidad – AVIFtoJPG.in",
+    "privacyDescription": "Conoce nuestra arquitectura de procesamiento en el navegador. Tus imágenes nunca se suben a servidores.",
+    "termsTitle": "Términos de Servicio – AVIFtoJPG.in",
+    "termsDescription": "Términos de servicio y condiciones de uso de AVIFtoJPG.in.",
+    "aboutTitle": "Sobre Nosotros – AVIFtoJPG.in",
+    "aboutDescription": "Descubre por qué existe AVIFtoJPG.in y cómo funciona nuestro convertidor gratuito.",
+    "contactTitle": "Contacto – AVIFtoJPG.in",
+    "contactDescription": "Ponte en contacto con el equipo de AVIFtoJPG.in para cualquier consulta o sugerencia."
+  },
+  "header": {
+    "brand": "AVIFtoJPG.in",
+    "language": "Idioma"
+  },
+  "ad": {
+    "label": "Publicidad",
+    "topSlot": "Banner responsivo de Google AdSense (728 × 90)",
+    "sidebarSlot": "Anuncio de barra lateral Google AdSense (300 × 250 / 300 × 600)",
+    "midContentSlot": "Banner responsivo de Google AdSense (728 × 90)"
+  },
+  "converter": {
+    "title": "Convertidor AVIF a JPG",
+    "description": "Convierte imágenes AVIF a formato JPG de forma rápida y sencilla.",
+    "secondaryExplanation": "Procesa tus imágenes directamente en tu navegador.",
+    "step1Title": "1. Sube tus archivos AVIF",
+    "step1Desc": "Haz clic en SUBIR ARCHIVOS o arrastra tus imágenes AVIF al área de carga.",
+    "step2Title": "2. Descarga tus archivos JPG",
+    "step2Desc": "Una vez finalizada la conversión, descarga los archivos JPG resultantes.",
+    "qualityLabel": "Calidad de imagen",
+    "qualityHelp": "Una mayor calidad puede generar archivos de mayor tamaño.",
+    "dropZoneTitle": "Arrastra tus archivos AVIF aquí",
+    "dropZoneSubtitle": "o haz clic para explorar en tu dispositivo",
+    "uploadButton": "SUBIR ARCHIVOS",
+    "dropZoneNote": "Solo se aceptan archivos .avif • Soporte para múltiples archivos",
+    "privacyNotice": "Tus imágenes se procesan en tu navegador y no se suben a nuestros servidores.",
+    "privacyLink": "Privacidad",
+    "queueTitle": "Cola de conversión",
+    "statusWaiting": "En espera...",
+    "statusConverting": "Convirtiendo...",
+    "statusConverted": "Convertido con éxito",
+    "statusError": "Error al convertir",
+    "btnDownload": "DESCARGAR",
+    "btnDownloadAll": "DESCARGAR TODO",
+    "btnClearQueue": "LIMPIAR COLA",
+    "btnTrySample": "Probar archivo de muestra",
+    "unsupportedBrowser": "Tu navegador no es compatible de forma nativa con la decodificación AVIF. Usa un navegador actualizado como Chrome, Edge, Safari o Firefox.",
+    "invalidFileType": "Solo se admiten archivos de imagen .avif.",
+    "originalSize": "Original",
+    "convertedSize": "Tamaño JPG"
+  },
+  "content": {
+    "mainHeading": "Convertidor AVIF a JPG",
+    "whatIsAvifTitle": "¿Qué es AVIF?",
+    "whatIsAvifBody": "AVIF (AV1 Image File Format) es un formato de imagen moderno y de código abierto desarrollado por la Alliance for Open Media. Basado en el códec de vídeo AV1, proporciona una compresión mucho más eficiente que los formatos tradicionales como JPEG y PNG.",
+    "whatIsJpgTitle": "¿Qué es JPG?",
+    "whatIsJpgBody": "JPG (o JPEG) es el formato de imagen digital más utilizado y reconocido del mundo. Es compatible de forma nativa con prácticamente todos los navegadores web, sistemas operativos, editores fotográficos y dispositivos.",
+    "whyConvertTitle": "¿Por qué convertir AVIF a JPG?",
+    "whyConvertPoints": [
+      "Compatibilidad universal: Los sistemas operativos y editores de fotos antiguos a menudo no pueden abrir AVIF, mientras que JPG funciona en todas partes.",
+      "Compartir en redes sociales: Muchas plataformas web y redes sociales aún no admiten la subida directa de archivos AVIF.",
+      "Impresión de fotos: Los laboratorios fotográficos y las impresoras convencionales esperan archivos estándar JPG.",
+      "Colaboración sin complicaciones: Enviar archivos JPG garantiza que cualquier persona pueda abrirlos y editarlos al instante."
+    ],
+    "comparisonTitle": "Comparativa AVIF vs JPG",
+    "comparisonRows": [
+      { "feature": "Eficiencia de compresión", "avif": "Superior (hasta un 50% más pequeño)", "jpg": "Compresión estándar" },
+      { "feature": "Compatibilidad universal", "avif": "Solo navegadores modernos", "jpg": "100% universal en todas las plataformas" },
+      { "feature": "Transparencia (canal alfa)", "avif": "Soportada", "jpg": "No soportada" },
+      { "feature": "Profundidad de color", "avif": "8, 10 y 12 bits HDR", "jpg": "Estándar de 8 bits SDR" },
+      { "feature": "Animación", "avif": "Soportada", "jpg": "No soportada" },
+      { "feature": "Decodificación por hardware", "avif": "Chips gráficos recientes", "jpg": "Aceleración universal en todo hardware" }
+    ],
+    "howToTitle": "Cómo convertir AVIF a JPG online",
+    "howToSteps": [
+      { "step": 1, "title": "Sube tus archivos AVIF", "desc": "Haz clic en 'SUBIR ARCHIVOS' o arrastra los archivos .avif al área del convertidor." },
+      { "step": 2, "title": "Ajusta la calidad si lo deseas", "desc": "Usa el control deslizante (el 85% por defecto es el equilibrio perfecto)." },
+      { "step": 3, "title": "Procesamiento en el navegador", "desc": "Tu navegador decodifica el AVIF y genera el JPG de forma local y segura." },
+      { "step": 4, "title": "Descarga tus imágenes JPG", "desc": "Descarga cada imagen individualmente o pulsa 'DESCARGAR TODO' en formato ZIP." }
+    ],
+    "qualityExplainedTitle": "Explicación de la calidad JPG",
+    "qualityExplainedBody": "Al convertir a JPG, el ajuste de calidad determina la tasa de compresión. Un ajuste del 85% ofrece una fidelidad visual prácticamente idéntica a la original con un tamaño de archivo reducido.",
+    "areFilesUploadedTitle": "¿Se suben mis archivos a sus servidores?",
+    "areFilesUploadedBody": "No. AVIFtoJPG.in funciona al 100% en el lado del cliente. Toda la decodificación y codificación ocurre en tu propio navegador sin enviar datos a la red.",
+    "isFreeTitle": "¿La conversión de AVIF a JPG es gratuita?",
+    "isFreeBody": "Sí, AVIFtoJPG.in es 100% gratuito, sin registros, sin límites diarios y sin marcas de agua."
+  },
+  "faq": {
+    "heading": "Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Qué es AVIF?",
+        "answer": "AVIF es un formato de imagen moderno con una compresión superior a la de JPG y PNG que mantiene una gran calidad visual."
+      },
+      {
+        "question": "¿Qué es JPG?",
+        "answer": "JPG es el formato de imagen con mayor compatibilidad en el mundo, soportado por prácticamente todos los dispositivos y aplicaciones."
+      },
+      {
+        "question": "¿Por qué convertir AVIF a JPG?",
+        "answer": "Para garantizar que tus imágenes se puedan abrir, editar y compartir en cualquier dispositivo o plataforma antigua."
+      },
+      {
+        "question": "¿Este convertidor es gratis?",
+        "answer": "Sí, es completamente gratuito y no requiere registrarse ni pagar nada."
+      },
+      {
+        "question": "¿Se suben mis imágenes a internet?",
+        "answer": "No, todo el procesamiento se realiza localmente en tu propio navegador."
+      },
+      {
+        "question": "¿La conversión reduce la calidad?",
+        "answer": "Con nuestro ajuste estándar de 85% a 90%, la calidad visual se conserva perfectamente sin pérdidas apreciables."
+      },
+      {
+        "question": "¿Puedo convertir varios archivos AVIF a la vez?",
+        "answer": "Sí, puedes cargar múltiples archivos y descargarlos en un único archivo comprimido ZIP."
+      },
+      {
+        "question": "¿Puedo usar este convertidor en el móvil?",
+        "answer": "Sí, funciona a la perfección en navegadores móviles para iOS y Android."
+      },
+      {
+        "question": "¿Qué calidad de JPG debo elegir?",
+        "answer": "Recomendamos el 85% para uso general en la web y el 90–95% para impresiones fotográficas de alta calidad."
+      },
+      {
+        "question": "¿Por qué mi navegador no puede abrir un archivo AVIF?",
+        "answer": "Las versiones antiguas de navegadores o sistemas operativos carecen de decodificador AVIF. Convertirlo a JPG soluciona el problema de inmediato."
+      }
+    ]
+  },
+  "footer": {
+    "brand": "AVIFtoJPG.in",
+    "tagline": "Conversión online gratuita de AVIF a JPG.",
+    "navHome": "Inicio",
+    "navPrivacy": "Política de Privacidad",
+    "navTerms": "Términos de Servicio",
+    "navAbout": "Sobre Nosotros",
+    "navContact": "Contacto",
+    "copyright": "© 2026 AVIFtoJPG.in"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Política de Privacidad",
+      "subtitle": "Última actualización: 22 de agosto de 2026",
+      "intro": "En AVIFtoJPG.in, respetamos tu privacidad por encima de todo. Nuestra arquitectura está diseñada para proteger tus archivos.",
+      "fileProcessingTitle": "1. Procesamiento local en el navegador",
+      "fileProcessingText": "Todas las conversiones se realizan dentro de tu propio navegador web mediante HTML5 Canvas. Tus archivos nunca se suben a servidores remotos.",
+      "dataCollectionTitle": "2. Recopilación de datos",
+      "dataCollectionText": "No recopilamos información personal ni requerimos cuentas de usuario.",
+      "cookiesTitle": "3. Cookies y publicidad",
+      "cookiesText": "Podemos mostrar anuncios a través de redes como Google AdSense para mantener este servicio gratuito.",
+      "thirdPartyTitle": "4. Servicios de terceros",
+      "thirdPartyText": "Los recursos estáticos se cargan mediante CDN de alta velocidad.",
+      "rightsTitle": "5. Derechos del usuario",
+      "rightsText": "Al no almacenar tus imágenes, no conservamos ninguna base de datos con tus archivos personales.",
+      "contactTitle": "6. Contacto",
+      "contactText": "Si tienes preguntas sobre privacidad, escríbenos a: contact@aviftojpg.in"
+    },
+    "terms": {
+      "title": "Términos de Servicio",
+      "subtitle": "Fecha de entrada en vigor: 22 de agosto de 2026",
+      "intro": "Lee estos términos detenidamente antes de utilizar AVIFtoJPG.in.",
+      "acceptableUseTitle": "1. Uso aceptable",
+      "acceptableUseText": "El servicio se ofrece de forma gratuita para uso personal, educativo y comercial legal.",
+      "userResponsibilitiesTitle": "2. Derechos de autor",
+      "userResponsibilitiesText": "Conservas todos los derechos de propiedad intelectual sobre las imágenes que proceses.",
+      "availabilityTitle": "3. Disponibilidad",
+      "availabilityText": "Nos esforzamos por mantener una alta disponibilidad del servicio sin garantizar un funcionamiento ininterrumpido.",
+      "liabilityTitle": "4. Limitación de responsabilidad",
+      "liabilityText": "El servicio se proporciona 'tal cual' sin garantías de ningún tipo.",
+      "jurisdictionTitle": "5. Ley aplicable",
+      "jurisdictionText": "Estos términos se rigen por la legislación aplicable.",
+      "contactTitle": "6. Información de contacto",
+      "contactText": "Para dudas sobre los términos: contact@aviftojpg.in"
+    },
+    "about": {
+      "title": "Sobre AVIFtoJPG.in",
+      "subtitle": "Conversión rápida, gratuita y privada de AVIF a JPG",
+      "missionTitle": "Nuestra misión",
+      "missionText": "Proporcionar a usuarios de todo el mundo una herramienta instantánea y privada para convertir imágenes AVIF en JPG universales.",
+      "whyAvifTitle": "¿Por qué AVIF a JPG?",
+      "whyAvifText": "AVIF es genial para ahorrar espacio, pero muchos programas aún no lo soportan. Nosotros resolvemos esa incompatibilidad.",
+      "howItWorksTitle": "¿Cómo funciona?",
+      "howItWorksText": "Todo el procesamiento se lleva a cabo directamente en la memoria de tu navegador.",
+      "futureDirectionTitle": "Futuro",
+      "futureDirectionText": "Seguiremos mejorando la velocidad y el rendimiento en todos los dispositivos."
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Ponte en contacto con el equipo de AVIFtoJPG.in",
+      "intro": "¿Tienes alguna duda, sugerencia o problema técnico? Estamos encantados de atenderte.",
+      "emailLabel": "Correo electrónico",
+      "emailAddress": "contact@aviftojpg.in",
+      "emailDesc": "Escribe directamente a nuestro equipo de soporte.",
+      "responseTime": "Respondemos habitualmente en un plazo de 24 a 48 horas laborables.",
+      "noteTitle": "Nota sobre tus archivos",
+      "noteText": "Dado que todo se procesa en tu navegador, nosotros no almacenamos copias de tus fotos."
+    }
+  }
+}
