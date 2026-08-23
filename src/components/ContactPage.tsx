@@ -71,16 +71,6 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
             <p className="text-sm text-gray-700 leading-relaxed">
               {ct.noteText}
             </p>
-            <a
-              href="/"
-              onClick={(e) => {
-                e.preventDefault();
-                onNavigate('avif-to-jpg');
-              }}
-              className="text-sm font-semibold text-teal-700 hover:text-teal-900 hover:underline cursor-pointer pt-1 inline-block"
-            >
-              {t.footer.navHome} →
-            </a>
           </div>
         </div>
 
