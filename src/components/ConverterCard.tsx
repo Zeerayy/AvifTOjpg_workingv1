@@ -282,7 +282,7 @@ export const ConverterCard: React.FC<ConverterCardProps> = ({
   const cardDesc = isDefaultAvifToJpg ? t.converter.description : config.description;
 
   return (
-    <div className="w-full bg-white border border-gray-200 rounded-lg p-6 sm:p-8 shadow-sm flex flex-col gap-6">
+    <div className="w-full bg-white border border-gray-200/90 rounded-2xl p-6 sm:p-8 md:p-9 shadow-[0_4px_24px_-4px_rgba(0,0,0,0.06),0_2px_6px_-2px_rgba(0,0,0,0.03)] flex flex-col gap-6">
       {/* Converter Heading & Introduction */}
       <div>
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2.5 tracking-tight">
@@ -300,10 +300,10 @@ export const ConverterCard: React.FC<ConverterCardProps> = ({
         onDragLeave={handleDragLeave}
         onDrop={handleDrop}
         onClick={() => fileInputRef.current?.click()}
-        className={`border-2 border-dashed rounded-xl p-8 sm:p-10 flex flex-col items-center justify-center cursor-pointer transition-colors select-none ${
+        className={`border-2 border-dashed rounded-xl p-8 sm:p-10 flex flex-col items-center justify-center cursor-pointer transition-all select-none ${
           isDragging
-            ? 'border-teal-500 bg-teal-50 scale-[1.005]'
-            : 'border-teal-300 bg-teal-50/40 hover:border-teal-500 hover:bg-teal-50/70'
+            ? 'border-teal-500 bg-teal-50 shadow-[0_4px_16px_-2px_rgba(13,148,136,0.15)] scale-[1.005]'
+            : 'border-teal-300/80 bg-teal-50/40 hover:border-teal-500 hover:bg-teal-50/70 hover:shadow-[0_2px_12px_-2px_rgba(13,148,136,0.1)]'
         }`}
         role="button"
         tabIndex={0}
@@ -371,12 +371,12 @@ export const ConverterCard: React.FC<ConverterCardProps> = ({
                 <div
                   key={item.id}
                   id={`queue-item-${item.id}`}
-                  className="flex items-center justify-between p-3.5 bg-gray-50 rounded border border-gray-100 gap-3"
+                  className="flex items-center justify-between p-3.5 bg-gray-50/90 rounded-xl border border-gray-200/70 shadow-[0_1px_4px_rgba(0,0,0,0.02)] gap-3 transition-all"
                 >
                   {/* Left: Thumbnail & File Metadata */}
                   <div className="flex items-center gap-3 min-w-0">
                     {/* Thumbnail preview */}
-                    <div className="w-11 h-11 rounded bg-white border border-gray-200 overflow-hidden shrink-0 flex items-center justify-center relative">
+                    <div className="w-11 h-11 rounded-lg bg-white border border-gray-200 overflow-hidden shrink-0 flex items-center justify-center relative shadow-xs">
                       {item.convertedUrl || item.previewUrl ? (
                         <img
                           src={item.convertedUrl || item.previewUrl}
@@ -448,7 +448,7 @@ export const ConverterCard: React.FC<ConverterCardProps> = ({
                         <button
                           id={`download-item-${item.id}`}
                           onClick={() => downloadSingle(item)}
-                          className="px-3.5 py-1.5 text-xs font-bold text-white bg-teal-600 hover:bg-teal-700 rounded shadow-xs transition-colors flex items-center gap-1.5 cursor-pointer"
+                          className="px-3.5 py-1.5 text-xs font-bold text-white bg-teal-600 hover:bg-teal-700 rounded-lg shadow-[0_2px_8px_-1px_rgba(13,148,136,0.3)] hover:shadow-[0_4px_12px_-1px_rgba(13,148,136,0.4)] transition-all flex items-center gap-1.5 cursor-pointer"
                         >
                           <Download className="w-3.5 h-3.5" />
                           <span>{t.converter.btnDownload}</span>
@@ -479,7 +479,7 @@ export const ConverterCard: React.FC<ConverterCardProps> = ({
       {generalError && (
         <div
           id="converter-error-banner"
-          className="bg-red-50 border border-red-200 text-red-700 px-4 py-2.5 rounded-lg text-xs sm:text-sm flex items-center justify-between gap-2"
+          className="bg-red-50 border border-red-200 text-red-700 px-4 py-2.5 rounded-xl text-xs sm:text-sm flex items-center justify-between gap-2 shadow-[0_2px_8px_-2px_rgba(239,68,68,0.15)]"
         >
           <div className="flex items-center gap-2">
             <AlertCircle className="w-4 h-4 text-red-500 shrink-0" />
@@ -533,7 +533,7 @@ export const ConverterCard: React.FC<ConverterCardProps> = ({
             onClick={handleLoadSample}
             disabled={isProcessing}
             title={t.converter.btnTrySample}
-            className="px-3.5 py-2 text-xs sm:text-sm font-semibold text-teal-700 bg-teal-50 hover:bg-teal-100 border border-teal-200 rounded transition-colors flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+            className="px-3.5 py-2 text-xs sm:text-sm font-semibold text-teal-700 bg-teal-50 hover:bg-teal-100 border border-teal-200/80 rounded-lg shadow-[0_1px_3px_rgba(0,0,0,0.02)] hover:shadow-[0_2px_6px_rgba(13,148,136,0.1)] transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
           >
             <Sparkles className="w-3.5 h-3.5 text-teal-600" />
             <span>{t.converter.btnTrySample}</span>
@@ -543,7 +543,7 @@ export const ConverterCard: React.FC<ConverterCardProps> = ({
             <button
               id="clear-queue-btn"
               onClick={handleClearQueue}
-              className="px-4 py-2 text-xs sm:text-sm font-semibold text-gray-500 bg-gray-100 hover:bg-gray-200 rounded transition-colors cursor-pointer"
+              className="px-4 py-2 text-xs sm:text-sm font-semibold text-gray-500 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors cursor-pointer"
             >
               {t.converter.btnClearQueue}
             </button>
@@ -554,7 +554,7 @@ export const ConverterCard: React.FC<ConverterCardProps> = ({
               id="download-all-zip-btn"
               onClick={downloadAllZip}
               disabled={isZipping}
-              className="px-6 py-2 text-xs sm:text-sm font-bold text-white bg-emerald-600 hover:bg-emerald-700 rounded shadow-md transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+              className="px-6 py-2 text-xs sm:text-sm font-bold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg shadow-[0_2px_10px_-1px_rgba(5,150,105,0.35)] hover:shadow-[0_4px_16px_-1px_rgba(5,150,105,0.45)] transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
             >
               {isZipping ? (
                 <Loader2 className="w-4 h-4 animate-spin" />
@@ -567,7 +567,7 @@ export const ConverterCard: React.FC<ConverterCardProps> = ({
             <button
               id="primary-upload-btn"
               onClick={() => fileInputRef.current?.click()}
-              className="px-6 py-2 text-xs sm:text-sm font-bold text-white bg-teal-600 hover:bg-teal-700 rounded shadow-md transition-all flex items-center gap-2 cursor-pointer"
+              className="px-6 py-2 text-xs sm:text-sm font-bold text-white bg-teal-600 hover:bg-teal-700 rounded-lg shadow-[0_2px_10px_-1px_rgba(13,148,136,0.35)] hover:shadow-[0_4px_16px_-1px_rgba(13,148,136,0.45)] transition-all flex items-center gap-2 cursor-pointer"
             >
               <Upload className="w-4 h-4" />
               <span>{t.converter.uploadButton}</span>

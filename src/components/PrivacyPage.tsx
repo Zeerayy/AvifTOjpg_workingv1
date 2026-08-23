@@ -12,7 +12,7 @@ export const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
   const p = t.pages.privacy;
 
   return (
-    <div className="w-full bg-white border border-gray-200 rounded-lg shadow-sm p-6 sm:p-8 md:p-10 space-y-7 text-gray-800">
+    <div className="w-full bg-white border border-gray-200/90 rounded-2xl shadow-[0_4px_24px_-4px_rgba(0,0,0,0.06),0_2px_6px_-2px_rgba(0,0,0,0.03)] p-6 sm:p-8 md:p-10 space-y-7 text-gray-800">
       <div className="border-b border-gray-100 pb-4 space-y-2">
         <div className="flex items-center gap-2 text-teal-700 font-bold text-xs tracking-wider uppercase">
           <Shield className="w-4 h-4" />
@@ -26,7 +26,7 @@ export const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
         </p>
       </div>
 
-      <div className="bg-teal-50/80 border border-teal-200 rounded-lg p-5 sm:p-6 flex items-start gap-3.5">
+      <div className="bg-teal-50/80 border border-teal-200/90 rounded-xl p-5 sm:p-6 flex items-start gap-3.5 shadow-[0_2px_10px_-2px_rgba(13,148,136,0.1)]">
         <Lock className="w-5 h-5 text-teal-700 shrink-0 mt-0.5" />
         <div className="text-sm sm:text-base text-teal-950 leading-relaxed">
           <strong className="block font-semibold mb-1 text-teal-950">
@@ -91,13 +91,17 @@ export const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
       </section>
 
       <div className="pt-4 border-t border-gray-100 flex justify-start">
-        <button
-          onClick={() => onNavigate('avif-to-jpg')}
+        <a
+          href="/"
+          onClick={(e) => {
+            e.preventDefault();
+            onNavigate('avif-to-jpg');
+          }}
           className="bg-teal-600 hover:bg-teal-700 text-white text-sm font-semibold px-5 py-2.5 rounded-md transition-colors flex items-center gap-2 cursor-pointer shadow-xs"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>{t.footer.navHome}</span>
-        </button>
+        </a>
       </div>
     </div>
   );

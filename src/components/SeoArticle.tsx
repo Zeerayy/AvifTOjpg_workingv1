@@ -19,7 +19,7 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
   const isDefaultAvifToJpg = config.id === 'avif-to-jpg';
 
   return (
-    <article className="w-full bg-white border border-gray-200 rounded-lg shadow-sm p-6 sm:p-8 md:p-10 space-y-8 text-gray-800">
+    <article className="w-full bg-white border border-gray-200/90 rounded-2xl shadow-[0_4px_24px_-4px_rgba(0,0,0,0.06),0_2px_6px_-2px_rgba(0,0,0,0.03)] p-6 sm:p-8 md:p-10 space-y-8 text-gray-800">
       {/* Article Header & Intro */}
       <section className="space-y-3">
         <h2 className="text-xl sm:text-2xl font-bold text-gray-900 tracking-tight">
@@ -32,7 +32,7 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
 
       {/* What is AVIF & What is JPG / Target Format */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-5">
-        <div className="bg-white border border-gray-200 rounded-lg p-5 sm:p-6 space-y-2.5 shadow-xs">
+        <div className="bg-white border border-gray-200/85 rounded-xl p-5 sm:p-6 space-y-2.5 shadow-[0_2px_12px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)]">
           <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
             {isDefaultAvifToJpg ? t.content.whatIsAvifTitle : article.whatIsSource.title}
           </h3>
@@ -41,7 +41,7 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
           </p>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded-lg p-5 sm:p-6 space-y-2.5 shadow-xs">
+        <div className="bg-white border border-gray-200/85 rounded-xl p-5 sm:p-6 space-y-2.5 shadow-[0_2px_12px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)]">
           <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
             {isDefaultAvifToJpg ? t.content.whatIsJpgTitle : article.whatIsTarget.title}
           </h3>
@@ -63,7 +63,7 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
               return (
                 <div
                   key={index}
-                  className="flex items-start gap-3.5 bg-gray-50/80 p-3.5 sm:p-4 rounded-lg border border-gray-200"
+                  className="flex items-start gap-3.5 bg-gray-50/90 p-3.5 sm:p-4 rounded-xl border border-gray-200/70 shadow-[0_1px_4px_rgba(0,0,0,0.02)]"
                 >
                   <div className="w-5 h-5 rounded-full bg-teal-100 text-teal-800 flex items-center justify-center shrink-0 mt-0.5 border border-teal-300">
                     <Check className="w-3.5 h-3.5 stroke-[2.5]" />
@@ -90,7 +90,7 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
         <h3 className="text-lg sm:text-xl font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
           {isDefaultAvifToJpg ? t.content.comparisonTitle : article.comparison.title}
         </h3>
-        <div className="overflow-x-auto border border-gray-200 rounded-lg">
+        <div className="overflow-x-auto border border-gray-200/80 rounded-xl shadow-[0_2px_12px_-2px_rgba(0,0,0,0.03)] overflow-hidden">
           <table className="w-full text-left text-sm sm:text-base border-collapse">
             <thead>
               <tr className="bg-gray-100 border-b border-gray-200 text-gray-800">
@@ -142,37 +142,10 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
         </div>
       </section>
 
-      {/* How To Steps */}
-      <section className="space-y-4">
-        <h3 className="text-lg sm:text-xl font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
-          {isDefaultAvifToJpg ? t.content.howToTitle : `How to Convert ${config.inputFormatName} to ${config.outputFormatName} Online`}
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {(isDefaultAvifToJpg ? t.content.howToSteps : article.howToSteps).map((step) => (
-            <div
-              key={step.step}
-              className="bg-gray-50 border border-gray-200 rounded-lg p-5 space-y-2"
-            >
-              <div className="flex items-center gap-2.5">
-                <span className="w-6 h-6 rounded bg-teal-600 text-white font-bold text-xs flex items-center justify-center shrink-0 shadow-xs">
-                  {step.step}
-                </span>
-                <h4 className="font-bold text-sm sm:text-base text-gray-900">
-                  {step.title}
-                </h4>
-              </div>
-              <p className="text-sm text-gray-700 leading-relaxed pl-8">
-                {step.desc}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Quality Explanation & In-browser Architecture if AVIF-to-JPG */}
       {isDefaultAvifToJpg && (
         <section className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          <div className="bg-white border border-gray-200 rounded-lg p-5 sm:p-6 space-y-2.5 shadow-xs">
+          <div className="bg-white border border-gray-200/85 rounded-xl p-5 sm:p-6 space-y-2.5 shadow-[0_2px_12px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)]">
             <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
               {t.content.qualityExplainedTitle}
             </h3>
@@ -180,7 +153,7 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
               {t.content.qualityExplainedBody}
             </p>
           </div>
-          <div className="bg-white border border-gray-200 rounded-lg p-5 sm:p-6 space-y-2.5 shadow-xs">
+          <div className="bg-white border border-gray-200/85 rounded-xl p-5 sm:p-6 space-y-2.5 shadow-[0_2px_12px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)]">
             <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
               {t.content.areFilesUploadedTitle}
             </h3>
@@ -192,7 +165,7 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
       )}
 
       {/* Trust & Privacy Pillars */}
-      <section className="grid grid-cols-1 sm:grid-cols-2 gap-5 p-5 sm:p-6 bg-teal-50/70 rounded-xl border border-teal-200 text-sm">
+      <section className="grid grid-cols-1 sm:grid-cols-2 gap-5 p-5 sm:p-6 bg-teal-50/70 rounded-xl border border-teal-200/90 shadow-[0_2px_12px_-2px_rgba(13,148,136,0.12)] text-sm">
         <div className="flex items-start gap-3.5">
           <ShieldCheck className="w-6 h-6 text-teal-700 shrink-0 mt-0.5" />
           <div className="space-y-1">
@@ -233,11 +206,11 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
             return (
               <div
                 key={index}
-                className="border border-gray-200 rounded-lg overflow-hidden transition-colors"
+                className="border border-gray-200/80 rounded-xl overflow-hidden shadow-[0_1px_4px_rgba(0,0,0,0.02)] transition-colors"
               >
                 <button
                   onClick={() => toggleFaq(index)}
-                  className="w-full text-left p-4 sm:p-4.5 bg-gray-50 hover:bg-gray-100/80 font-semibold text-sm sm:text-base text-gray-900 flex items-center justify-between gap-3 cursor-pointer transition-colors"
+                  className="w-full text-left p-4 sm:p-4.5 bg-gray-50/90 hover:bg-gray-100/90 font-semibold text-sm sm:text-base text-gray-900 flex items-center justify-between gap-3 cursor-pointer transition-colors"
                   aria-expanded={isOpen}
                 >
                   <span className="font-medium">{faq.question}</span>
@@ -248,7 +221,7 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
                   />
                 </button>
                 {isOpen && (
-                  <div className="p-4 sm:p-5 bg-white text-sm sm:text-base text-gray-700 leading-relaxed border-t border-gray-200">
+                  <div className="p-4 sm:p-5 bg-white text-sm sm:text-base text-gray-700 leading-relaxed border-t border-gray-200/80">
                     {faq.answer}
                   </div>
                 )}

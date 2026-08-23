@@ -3,6 +3,7 @@ import { PageId } from './types';
 import { TOOL_CONFIGS, SEO_ARTICLES } from './utils/seoData';
 import { LocaleProvider, useLocale } from './context/LocaleContext';
 import { Header } from './components/Header';
+import { HowToSection } from './components/HowToSection';
 import { ConverterCard } from './components/ConverterCard';
 import { SeoArticle } from './components/SeoArticle';
 import { PrivacyPage } from './components/PrivacyPage';
@@ -112,7 +113,7 @@ function AppContent() {
       <main className="flex-1 max-w-[1100px] w-full mx-auto p-4 sm:p-6 space-y-6">
         {isToolPage ? (
           <div className="space-y-6">
-            {/* Desktop 2-Column: Left (Converter Card + Quick Info) & Right (Ad + Privacy Box) */}
+            {/* Desktop 2-Column: Left (Converter Card with Top Drop Area + Quick Info) & Right (Sidebar) */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
               {/* Main Converter Column (8 cols) */}
               <div className="lg:col-span-8 flex flex-col gap-6">
@@ -123,7 +124,7 @@ function AppContent() {
 
                 {/* 2-Card Quick Explanations */}
                 <section className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div className="bg-white p-5 sm:p-6 border border-gray-200 rounded-lg shadow-xs space-y-2">
+                  <div className="bg-white p-5 sm:p-6 border border-gray-200/85 rounded-xl shadow-[0_2px_14px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)] space-y-2">
                     <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
                       {t.content.whatIsAvifTitle}
                     </h3>
@@ -131,7 +132,7 @@ function AppContent() {
                       {t.content.whatIsAvifBody}
                     </p>
                   </div>
-                  <div className="bg-white p-5 sm:p-6 border border-gray-200 rounded-lg shadow-xs space-y-2">
+                  <div className="bg-white p-5 sm:p-6 border border-gray-200/85 rounded-xl shadow-[0_2px_14px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)] space-y-2">
                     <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
                       {t.content.whyConvertTitle}
                     </h3>
@@ -145,7 +146,7 @@ function AppContent() {
               {/* Sidebar Column (4 cols) */}
               <div className="lg:col-span-4 flex flex-col gap-6">
                 {/* Privacy First Highlight Card */}
-                <div className="bg-teal-900 text-white p-5 sm:p-6 rounded-lg shadow-sm space-y-2.5">
+                <div className="bg-teal-900 text-white p-5 sm:p-6 rounded-xl border border-teal-800/80 shadow-[0_4px_20px_-2px_rgba(13,148,136,0.25),0_2px_6px_-1px_rgba(0,0,0,0.06)] space-y-2.5">
                   <div className="flex items-center gap-2 text-teal-300">
                     <ShieldCheck className="w-5 h-5" />
                     <h4 className="text-xs font-bold uppercase tracking-widest text-teal-200">
@@ -155,10 +156,22 @@ function AppContent() {
                   <p className="text-sm text-teal-50/95 leading-relaxed">
                     {t.content.areFilesUploadedBody || 'Your images are processed 100% locally in your browser. We never see your data, and nothing is uploaded to our servers.'}
                   </p>
+                  <div className="pt-1">
+                    <a
+                      href="/privacy"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        handleNavigate('privacy');
+                      }}
+                      className="text-xs font-medium text-teal-300 hover:text-white underline inline-flex items-center gap-1 cursor-pointer transition-colors"
+                    >
+                      {t.footer.navPrivacy} →
+                    </a>
+                  </div>
                 </div>
                 
                 {/* Key Benefits Card in Sidebar */}
-                <div className="bg-white border border-gray-200 rounded-lg p-5 sm:p-6 shadow-xs space-y-3.5">
+                <div className="bg-white border border-gray-200/85 rounded-xl p-5 sm:p-6 shadow-[0_2px_14px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)] space-y-3.5">
                   <div className="text-xs font-bold text-gray-900 uppercase tracking-wider">
                     Why Use AVIFtoJPG.in
                   </div>
@@ -183,6 +196,9 @@ function AppContent() {
                 </div>
               </div>
             </div>
+
+            {/* How to Convert Section */}
+            <HowToSection config={currentToolConfig} />
 
             {/* In-depth SEO Article & FAQs */}
             <SeoArticle
@@ -210,14 +226,14 @@ function AppContent() {
 
             {/* Sidebar & Privacy Box on Info Pages */}
             <div className="lg:col-span-4 flex flex-col gap-6">
-              <div className="bg-teal-900 text-white p-5 rounded-lg shadow-sm space-y-2">
+              <div className="bg-teal-900 text-white p-5 sm:p-6 rounded-xl border border-teal-800/80 shadow-[0_4px_20px_-2px_rgba(13,148,136,0.25),0_2px_6px_-1px_rgba(0,0,0,0.06)] space-y-2">
                 <div className="flex items-center gap-2 text-teal-400">
                   <ShieldCheck className="w-4 h-4" />
                   <h4 className="text-xs font-bold uppercase tracking-widest">
                     {t.content.areFilesUploadedTitle || 'Privacy First'}
                   </h4>
                 </div>
-                <p className="text-xs opacity-90 leading-relaxed">
+                <p className="text-xs sm:text-sm text-teal-50/95 leading-relaxed">
                   {t.content.areFilesUploadedBody || 'Your images are processed 100% locally in your browser. We never see your data, and nothing is uploaded to our servers.'}
                 </p>
               </div>

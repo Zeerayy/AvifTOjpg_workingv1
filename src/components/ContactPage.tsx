@@ -27,7 +27,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
   };
 
   return (
-    <div className="w-full bg-white border border-gray-200 rounded-lg shadow-sm p-6 sm:p-8 md:p-10 space-y-7 text-gray-800">
+    <div className="w-full bg-white border border-gray-200/90 rounded-2xl shadow-[0_4px_24px_-4px_rgba(0,0,0,0.06),0_2px_6px_-2px_rgba(0,0,0,0.03)] p-6 sm:p-8 md:p-10 space-y-7 text-gray-800">
       <div className="border-b border-gray-100 pb-4 space-y-2">
         <div className="flex items-center gap-2 text-teal-700 font-bold text-xs tracking-wider uppercase">
           <Mail className="w-4 h-4" />
@@ -44,7 +44,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left: Contact Info & Guidelines */}
         <div className="space-y-5">
-          <div className="bg-gray-50/80 border border-gray-200 rounded-lg p-5 sm:p-6 space-y-3.5">
+          <div className="bg-gray-50/90 border border-gray-200/80 rounded-xl p-5 sm:p-6 space-y-3.5 shadow-[0_2px_10px_-2px_rgba(0,0,0,0.03)]">
             <h2 className="font-bold text-base text-gray-900 flex items-center gap-2">
               <Mail className="w-4 h-4 text-teal-600" />
               {ct.emailLabel}
@@ -54,7 +54,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
             </div>
             <a
               href={`mailto:${ct.emailAddress}`}
-              className="inline-block font-mono text-sm font-semibold text-teal-800 hover:text-teal-950 bg-teal-50 border border-teal-200 px-3.5 py-1.5 rounded transition-colors"
+              className="inline-block font-mono text-sm font-semibold text-teal-800 hover:text-teal-950 bg-teal-50 border border-teal-200 px-3.5 py-1.5 rounded transition-colors shadow-xs"
             >
               {ct.emailAddress}
             </a>
@@ -63,7 +63,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
             </div>
           </div>
 
-          <div className="bg-gray-50/80 border border-gray-200 rounded-lg p-5 sm:p-6 space-y-2.5">
+          <div className="bg-gray-50/90 border border-gray-200/80 rounded-xl p-5 sm:p-6 space-y-2.5 shadow-[0_2px_10px_-2px_rgba(0,0,0,0.03)]">
             <h2 className="font-bold text-base text-gray-900 flex items-center gap-2">
               <MessageSquare className="w-4 h-4 text-teal-600" />
               {ct.noteTitle}
@@ -71,24 +71,28 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
             <p className="text-sm text-gray-700 leading-relaxed">
               {ct.noteText}
             </p>
-            <button
-              onClick={() => onNavigate('avif-to-jpg')}
-              className="text-sm font-semibold text-teal-700 hover:underline cursor-pointer pt-1 inline-block"
+            <a
+              href="/"
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigate('avif-to-jpg');
+              }}
+              className="text-sm font-semibold text-teal-700 hover:text-teal-900 hover:underline cursor-pointer pt-1 inline-block"
             >
               {t.footer.navHome} →
-            </button>
+            </a>
           </div>
         </div>
 
         {/* Right: Message Form */}
-        <div className="bg-white border border-gray-200 rounded-lg p-5 sm:p-6 space-y-4">
+        <div className="bg-white border border-gray-200/80 rounded-xl p-5 sm:p-6 space-y-4 shadow-[0_2px_12px_-2px_rgba(0,0,0,0.03)]">
           <h2 className="font-bold text-base text-gray-900 flex items-center gap-2">
             <MessageSquare className="w-4 h-4 text-teal-600" />
             {ct.title}
           </h2>
 
           {submitted ? (
-            <div className="bg-teal-50 border border-teal-200 text-teal-900 p-4 rounded-lg text-sm space-y-2">
+            <div className="bg-teal-50 border border-teal-200/90 text-teal-900 p-4 rounded-xl text-sm space-y-2 shadow-[0_2px_8px_-2px_rgba(13,148,136,0.1)]">
               <div className="flex items-center gap-2 font-semibold">
                 <CheckCircle2 className="w-4 h-4 text-teal-600" />
                 <span>Message Client Triggered</span>
