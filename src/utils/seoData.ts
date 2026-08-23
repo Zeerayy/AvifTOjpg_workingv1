@@ -20,7 +20,7 @@ export const TOOL_CONFIGS: Record<ToolMode, ToolConfig> = {
 
 export const SEO_ARTICLES: Record<ToolMode, SeoContentData> = {
   'avif-to-jpg': {
-    pageTitle: 'AVIF to JPG Converter – Free Online Image Converter',
+    pageTitle: 'AVIF to JPG - Convert AVIF to JPG for Free',
     metaDescription:
       'Convert AVIF images to JPG format quickly and easily. Process images directly in your browser with our free, private AVIF to JPG converter.',
     heading: 'AVIF to JPG Converter',
@@ -104,17 +104,17 @@ export const SEO_ARTICLES: Record<ToolMode, SeoContentData> = {
       {
         question: 'What is AVIF?',
         answer:
-          'AVIF (AV1 Image File Format) is a modern image compression format based on the AV1 video codec that provides high image quality at much smaller file sizes than traditional JPEG.',
+          'AVIF is a next-generation image format designed to make web pages load faster by shrinking image sizes without losing sharpness. While modern web browsers support it, many desktop applications and mobile photo galleries cannot open it natively yet.',
       },
       {
         question: 'What is JPG?',
         answer:
-          'JPG (or JPEG) is the standard digital photographic image format used worldwide across virtually every device, website, and operating system.',
+          'JPG (or JPEG) is the universal standard format for digital photography and web graphics. It has been supported by every computer, smartphone, and photo viewer for over three decades.',
       },
       {
         question: 'Why should I convert AVIF to JPG?',
         answer:
-          'Converting AVIF to JPG ensures maximum compatibility with older software, photo editors, operating systems, printing services, and platforms that do not yet support the newer AVIF format.',
+          'Converting your AVIF files to JPG makes them universally accessible for editing, printing, and sharing. It eliminates errors when uploading pictures to social media or opening them in older software.',
       },
       {
         question: 'Is this AVIF to JPG converter completely free?',
@@ -124,7 +124,7 @@ export const SEO_ARTICLES: Record<ToolMode, SeoContentData> = {
       {
         question: 'Are my images uploaded to your servers?',
         answer:
-          'No! All conversions occur 100% locally inside your web browser using HTML5 Canvas APIs. Your files never leave your device.',
+          'No, all conversion is performed 100% locally in your browser. Your images never leave your device and are never sent to any server (see the Privacy First note in the sidebar).',
       },
       {
         question: 'Will converting AVIF to JPG reduce image quality?',

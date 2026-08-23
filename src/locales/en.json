@@ -3,7 +3,7 @@
   "langName": "English",
   "nativeName": "English",
   "meta": {
-    "pageTitle": "AVIF to JPG Converter – Free Online Image Converter",
+    "pageTitle": "AVIF to JPG - Convert AVIF to JPG for Free",
     "metaDescription": "Convert AVIF images to JPG quickly and easily with our free online AVIF to JPG converter.",
     "privacyTitle": "Privacy Policy – AVIFtoJPG.in",
     "privacyDescription": "Read about our client-side, in-browser privacy architecture. Your images are never uploaded to our servers.",
@@ -57,10 +57,12 @@
   "content": {
     "mainHeading": "AVIF to JPG Converter",
     "whatIsAvifTitle": "What is AVIF?",
+    "whatIsAvifTeaser": "AVIF is a modern, high-efficiency image format engineered for superior compression and smaller file sizes across the web.",
     "whatIsAvifBody": "AVIF (AV1 Image File Format) is a modern, open, royalty-free image format developed by the Alliance for Open Media (AOMedia). Derived from the AV1 video codec, AVIF provides significantly higher compression efficiency than legacy formats like JPEG and PNG, preserving rich color depth and visual clarity at remarkably compact file sizes.",
     "whatIsJpgTitle": "What is JPG?",
     "whatIsJpgBody": "JPG (or JPEG) is the most widely adopted and universally recognized digital image format in the world. Standardized by the Joint Photographic Experts Group, JPG uses lossy compression to balance reasonable file size with good visual quality. It is natively supported by virtually every web browser, operating system, photo editor, camera, smartphone, and social media network in existence.",
     "whyConvertTitle": "Why convert AVIF to JPG?",
+    "whyConvertTeaser": "Converting to JPG ensures universal compatibility so your images open, edit, and share seamlessly on every device and platform.",
     "whyConvertPoints": [
       "Universal Compatibility: Older operating systems, legacy image editing tools (like older Photoshop versions), and specialized printing software often fail to open AVIF files, whereas JPG opens everywhere seamlessly.",
       "Effortless Web & Social Sharing: Many social media platforms, forums, content management systems (CMS), and e-commerce portals still do not accept direct AVIF uploads.",
@@ -95,15 +97,15 @@
     "items": [
       {
         "question": "What is AVIF?",
-        "answer": "AVIF (AV1 Image File Format) is an image format developed by the Alliance for Open Media that offers superior compression compared to JPG and PNG while maintaining high visual quality."
+        "answer": "AVIF is a next-generation image format designed to make web pages load faster by shrinking image sizes without losing sharpness. While modern web browsers support it, many desktop applications and mobile photo galleries cannot open it natively yet."
       },
       {
         "question": "What is JPG?",
-        "answer": "JPG (or JPEG) is the world's most widely compatible image format, supported by virtually every web browser, operating system, photo editor, and device."
+        "answer": "JPG (or JPEG) is the universal standard format for digital photography and web graphics. It has been supported by every computer, smartphone, and photo viewer for over three decades."
       },
       {
         "question": "Why convert AVIF to JPG?",
-        "answer": "Converting AVIF to JPG provides universal compatibility so your photos can be opened in older software, shared on all social platforms, printed, and edited anywhere."
+        "answer": "Converting your AVIF files to JPG makes them universally accessible for editing, printing, and sharing. It eliminates errors when uploading pictures to social media or opening them in older software."
       },
       {
         "question": "Is this converter free?",
@@ -111,7 +113,7 @@
       },
       {
         "question": "Are my images uploaded?",
-        "answer": "No. All conversion is performed client-side inside your web browser. Your images never leave your computer or device."
+        "answer": "No, all conversion is performed 100% locally in your browser. Your images never leave your device and are never sent to any server (see the Privacy First note in the sidebar)."
       },
       {
         "question": "Does converting AVIF to JPG reduce quality?",

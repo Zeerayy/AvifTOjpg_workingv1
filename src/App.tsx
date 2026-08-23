@@ -52,7 +52,7 @@ function AppContent() {
 
   // Update document title, meta descriptions, and canonical tags based on active locale & page
   useEffect(() => {
-    let title = t.meta.pageTitle || 'AVIF to JPG Converter – Free Online Image Converter';
+    let title = t.meta.pageTitle || 'AVIF to JPG - Convert AVIF to JPG for Free';
     let description =
       t.meta.metaDescription ||
       'Convert AVIF images to JPG quickly and easily. Process images directly in your browser with our free, private AVIF to JPG converter.';
@@ -122,14 +122,14 @@ function AppContent() {
                   onNavigate={handleNavigate}
                 />
 
-                {/* 2-Card Quick Explanations */}
+                {/* 2-Card Quick Explanations (1-Sentence Teasers) */}
                 <section className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="bg-white p-5 sm:p-6 border border-gray-200/85 rounded-xl shadow-[0_2px_14px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)] space-y-2">
                     <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
                       {t.content.whatIsAvifTitle}
                     </h3>
                     <p className="text-sm text-gray-700 leading-relaxed">
-                      {t.content.whatIsAvifBody}
+                      {t.content.whatIsAvifTeaser || 'AVIF is a modern, high-efficiency image format engineered for superior compression and smaller file sizes across the web.'}
                     </p>
                   </div>
                   <div className="bg-white p-5 sm:p-6 border border-gray-200/85 rounded-xl shadow-[0_2px_14px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)] space-y-2">
@@ -137,7 +137,7 @@ function AppContent() {
                       {t.content.whyConvertTitle}
                     </h3>
                     <p className="text-sm text-gray-700 leading-relaxed">
-                      {t.content.whyConvertPoints[0] || 'Universal compatibility with all devices, legacy image editors, and social networks.'}
+                      {t.content.whyConvertTeaser || 'Converting to JPG ensures universal compatibility so your images open, edit, and share seamlessly on every device and platform.'}
                     </p>
                   </div>
                 </section>

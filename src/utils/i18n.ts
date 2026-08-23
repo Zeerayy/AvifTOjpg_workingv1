@@ -92,10 +92,12 @@ export interface LocaleData {
   content: {
     mainHeading: string;
     whatIsAvifTitle: string;
+    whatIsAvifTeaser?: string;
     whatIsAvifBody: string;
     whatIsJpgTitle: string;
     whatIsJpgBody: string;
     whyConvertTitle: string;
+    whyConvertTeaser?: string;
     whyConvertPoints: string[];
     comparisonTitle: string;
     comparisonRows: Array<{
