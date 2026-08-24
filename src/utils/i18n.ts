@@ -1,19 +1,4 @@
 import en from '../locales/en.json';
-import ru from '../locales/ru.json';
-import de from '../locales/de.json';
-import zh from '../locales/zh.json';
-import es from '../locales/es.json';
-import pt from '../locales/pt.json';
-import id from '../locales/id.json';
-import fr from '../locales/fr.json';
-import ja from '../locales/ja.json';
-import nl from '../locales/nl.json';
-import pl from '../locales/pl.json';
-import tr from '../locales/tr.json';
-import ko from '../locales/ko.json';
-import it from '../locales/it.json';
-import vi from '../locales/vi.json';
-import hi from '../locales/hi.json';
 
 export type SupportedLocale =
   | 'en'
@@ -196,24 +181,48 @@ export interface LocaleData {
   };
 }
 
-export const LOCALES: Record<SupportedLocale, LocaleData> = {
-  en: en as LocaleData,
-  ru: ru as LocaleData,
-  de: de as LocaleData,
-  zh: zh as LocaleData,
-  es: es as LocaleData,
-  pt: pt as LocaleData,
-  id: id as LocaleData,
-  fr: fr as LocaleData,
-  ja: ja as LocaleData,
-  nl: nl as LocaleData,
-  pl: pl as LocaleData,
-  tr: tr as LocaleData,
-  ko: ko as LocaleData,
-  it: it as LocaleData,
-  vi: vi as LocaleData,
-  hi: hi as LocaleData,
+export const DEFAULT_LOCALE_DATA: LocaleData = en as LocaleData;
+
+const localeLoaders: Record<SupportedLocale, () => Promise<{ default: LocaleData }>> = {
+  en: () => Promise.resolve({ default: DEFAULT_LOCALE_DATA }),
+  ru: () => import('../locales/ru.json') as Promise<{ default: LocaleData }>,
+  de: () => import('../locales/de.json') as Promise<{ default: LocaleData }>,
+  zh: () => import('../locales/zh.json') as Promise<{ default: LocaleData }>,
+  es: () => import('../locales/es.json') as Promise<{ default: LocaleData }>,
+  pt: () => import('../locales/pt.json') as Promise<{ default: LocaleData }>,
+  id: () => import('../locales/id.json') as Promise<{ default: LocaleData }>,
+  fr: () => import('../locales/fr.json') as Promise<{ default: LocaleData }>,
+  ja: () => import('../locales/ja.json') as Promise<{ default: LocaleData }>,
+  nl: () => import('../locales/nl.json') as Promise<{ default: LocaleData }>,
+  pl: () => import('../locales/pl.json') as Promise<{ default: LocaleData }>,
+  tr: () => import('../locales/tr.json') as Promise<{ default: LocaleData }>,
+  ko: () => import('../locales/ko.json') as Promise<{ default: LocaleData }>,
+  it: () => import('../locales/it.json') as Promise<{ default: LocaleData }>,
+  vi: () => import('../locales/vi.json') as Promise<{ default: LocaleData }>,
+  hi: () => import('../locales/hi.json') as Promise<{ default: LocaleData }>,
 };
+
+const localeCache: Partial<Record<SupportedLocale, LocaleData>> = {
+  en: DEFAULT_LOCALE_DATA,
+};
+
+export async function loadLocale(locale: SupportedLocale): Promise<LocaleData> {
+  if (localeCache[locale]) {
+    return localeCache[locale]!;
+  }
+  if (!localeLoaders[locale]) {
+    return DEFAULT_LOCALE_DATA;
+  }
+  try {
+    const module = await localeLoaders[locale]();
+    const data = module.default;
+    localeCache[locale] = data;
+    return data;
+  } catch (error) {
+    console.error(`Error loading locale "${locale}":`, error);
+    return DEFAULT_LOCALE_DATA;
+  }
+}
 
 export interface LanguageOption {
   code: SupportedLocale;
@@ -240,6 +249,29 @@ export const SUPPORTED_LANGUAGES: LanguageOption[] = [
   { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी' },
 ];
 
+export const SUPPORTED_LOCALE_CODES: SupportedLocale[] = [
+  'en',
+  'es',
+  'de',
+  'fr',
+  'pt',
+  'it',
+  'nl',
+  'pl',
+  'ru',
+  'tr',
+  'zh',
+  'ja',
+  'ko',
+  'vi',
+  'id',
+  'hi',
+];
+
+export function isValidLocale(code: string | undefined | null): code is SupportedLocale {
+  return typeof code === 'string' && (SUPPORTED_LOCALE_CODES as string[]).includes(code);
+}
+
 const STORAGE_KEY = 'avif_to_jpg_lang';
 
 export function getInitialLocale(): SupportedLocale {
@@ -248,20 +280,20 @@ export function getInitialLocale(): SupportedLocale {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
       const urlLang = (params.get('lang') || params.get('hl'))?.toLowerCase();
-      if (urlLang && urlLang in LOCALES) {
-        return urlLang as SupportedLocale;
+      if (isValidLocale(urlLang)) {
+        return urlLang;
       }
 
       // 2. Check localStorage
       const saved = localStorage.getItem(STORAGE_KEY)?.toLowerCase();
-      if (saved && saved in LOCALES) {
-        return saved as SupportedLocale;
+      if (isValidLocale(saved)) {
+        return saved;
       }
 
       // 3. Check browser language (e.g. "zh-CN" -> "zh", "pt-BR" -> "pt")
       const browserLang = navigator.language?.slice(0, 2).toLowerCase();
-      if (browserLang && browserLang in LOCALES) {
-        return browserLang as SupportedLocale;
+      if (isValidLocale(browserLang)) {
+        return browserLang;
       }
     }
   } catch (e) {
@@ -280,9 +312,3 @@ export function saveLocale(locale: SupportedLocale): void {
   }
 }
 
-export function getLocale(code: string): LocaleData {
-  if (code in LOCALES) {
-    return LOCALES[code as SupportedLocale];
-  }
-  return LOCALES.en;
-}
