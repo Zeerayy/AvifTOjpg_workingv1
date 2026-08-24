@@ -125,17 +125,17 @@ function AppContent() {
                 {/* 2-Card Quick Explanations (1-Sentence Teasers) */}
                 <section className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="bg-white p-5 sm:p-6 border border-gray-200/85 rounded-xl shadow-[0_2px_14px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)] space-y-2">
-                    <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
+                    <h2 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
                       {t.content.whatIsAvifTitle}
-                    </h3>
+                    </h2>
                     <p className="text-sm text-gray-700 leading-relaxed">
                       {t.content.whatIsAvifTeaser || 'AVIF is a modern, high-efficiency image format engineered for superior compression and smaller file sizes across the web.'}
                     </p>
                   </div>
                   <div className="bg-white p-5 sm:p-6 border border-gray-200/85 rounded-xl shadow-[0_2px_14px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)] space-y-2">
-                    <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
+                    <h2 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
                       {t.content.whyConvertTitle}
-                    </h3>
+                    </h2>
                     <p className="text-sm text-gray-700 leading-relaxed">
                       {t.content.whyConvertTeaser || 'Converting to JPG ensures universal compatibility so your images open, edit, and share seamlessly on every device and platform.'}
                     </p>
@@ -149,9 +149,9 @@ function AppContent() {
                 <div className="bg-teal-900 text-white p-5 sm:p-6 rounded-xl border border-teal-800/80 shadow-[0_4px_20px_-2px_rgba(13,148,136,0.25),0_2px_6px_-1px_rgba(0,0,0,0.06)] space-y-2.5">
                   <div className="flex items-center gap-2 text-teal-300">
                     <ShieldCheck className="w-5 h-5" />
-                    <h4 className="text-xs font-bold uppercase tracking-widest text-teal-200">
+                    <h2 className="text-xs font-bold uppercase tracking-widest text-teal-200">
                       {t.content.areFilesUploadedTitle || 'Privacy First'}
-                    </h4>
+                    </h2>
                   </div>
                   <p className="text-sm text-teal-50/95 leading-relaxed">
                     {t.content.areFilesUploadedBody || 'Your images are processed 100% locally in your browser. We never see your data, and nothing is uploaded to our servers.'}
@@ -229,9 +229,9 @@ function AppContent() {
               <div className="bg-teal-900 text-white p-5 sm:p-6 rounded-xl border border-teal-800/80 shadow-[0_4px_20px_-2px_rgba(13,148,136,0.25),0_2px_6px_-1px_rgba(0,0,0,0.06)] space-y-2">
                 <div className="flex items-center gap-2 text-teal-400">
                   <ShieldCheck className="w-4 h-4" />
-                  <h4 className="text-xs font-bold uppercase tracking-widest">
+                  <h2 className="text-xs font-bold uppercase tracking-widest">
                     {t.content.areFilesUploadedTitle || 'Privacy First'}
-                  </h4>
+                  </h2>
                 </div>
                 <p className="text-xs sm:text-sm text-teal-50/95 leading-relaxed">
                   {t.content.areFilesUploadedBody || 'Your images are processed 100% locally in your browser. We never see your data, and nothing is uploaded to our servers.'}

@@ -23,18 +23,18 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
       {/* What is AVIF & What is JPG / Target Format (Expanded Canonical Explanations) */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="bg-white border border-gray-200/85 rounded-xl p-5 sm:p-6 space-y-2.5 shadow-[0_2px_12px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)]">
-          <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
+          <h2 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
             {isDefaultAvifToJpg ? t.content.whatIsAvifTitle : article.whatIsSource.title}
-          </h3>
+          </h2>
           <p className="text-sm sm:text-[15px] text-gray-700 leading-relaxed">
             {isDefaultAvifToJpg ? t.content.whatIsAvifBody : article.whatIsSource.body}
           </p>
         </div>
 
         <div className="bg-white border border-gray-200/85 rounded-xl p-5 sm:p-6 space-y-2.5 shadow-[0_2px_12px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)]">
-          <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
+          <h2 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
             {isDefaultAvifToJpg ? t.content.whatIsJpgTitle : article.whatIsTarget.title}
-          </h3>
+          </h2>
           <p className="text-sm sm:text-[15px] text-gray-700 leading-relaxed">
             {isDefaultAvifToJpg ? t.content.whatIsJpgBody : article.whatIsTarget.body}
           </p>
@@ -43,9 +43,9 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
 
       {/* Why Convert */}
       <section className="space-y-4">
-        <h3 className="text-lg sm:text-xl font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
+        <h2 className="text-lg sm:text-xl font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
           {isDefaultAvifToJpg ? t.content.whyConvertTitle : article.whyConvert.title}
-        </h3>
+        </h2>
         <div className="grid grid-cols-1 gap-3">
           {(isDefaultAvifToJpg ? t.content.whyConvertPoints : article.whyConvert.points).map(
             (point, index) => {
@@ -77,9 +77,9 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
 
       {/* Comparison Table */}
       <section className="space-y-4">
-        <h3 className="text-lg sm:text-xl font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
+        <h2 className="text-lg sm:text-xl font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
           {isDefaultAvifToJpg ? t.content.comparisonTitle : article.comparison.title}
-        </h3>
+        </h2>
         <div className="overflow-x-auto border border-gray-200/80 rounded-xl shadow-[0_2px_12px_-2px_rgba(0,0,0,0.03)] overflow-hidden">
           <table className="w-full text-left text-sm sm:text-base border-collapse">
             <thead>
@@ -137,9 +137,9 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
         <section className="bg-white border border-gray-200/85 rounded-xl p-5 sm:p-6 space-y-2.5 shadow-[0_2px_12px_-2px_rgba(0,0,0,0.04),0_1px_3px_rgba(0,0,0,0.02)]">
           <div className="flex items-center gap-2">
             <Sliders className="w-4 h-4 text-teal-600 shrink-0" />
-            <h3 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
+            <h2 className="text-base font-bold text-gray-900 border-l-4 border-teal-600 pl-2.5">
               {t.content.qualityExplainedTitle}
-            </h3>
+            </h2>
           </div>
           <p className="text-sm sm:text-[15px] text-gray-700 leading-relaxed">
             {t.content.qualityExplainedBody}
@@ -151,9 +151,9 @@ export const SeoArticle: React.FC<SeoArticleProps> = ({ article, config }) => {
       <section className="space-y-4">
         <div className="flex items-center gap-2.5">
           <HelpCircle className="w-5 h-5 text-teal-600" />
-          <h3 className="text-lg sm:text-xl font-bold text-gray-900">
+          <h2 className="text-lg sm:text-xl font-bold text-gray-900">
             {isDefaultAvifToJpg ? t.faq.heading : 'Frequently Asked Questions'}
-          </h3>
+          </h2>
         </div>
 
         <div className="space-y-3">
